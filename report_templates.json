@@ -688,6 +688,160 @@
       "causa": "O terminal apresentava erro na leitura do Smart Card.",
       "acao": "Substituição realizada e equipamento restabelecido.",
       "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
+        },
+  "112": {
+    "title": "Sem Acesso ao DG / Sótão",
+    "fato": "Sem Acesso ao DG / Sótão",
+    "causa": "O técnico não conseguiu acessar o DG (Distribuidor Geral) ou o sótão.",
+    "acao": "Cliente foi informado da necessidade de liberar o acesso para prosseguimento da instalação.",
+    "obs": "✅ Serviço reagendado após liberação de acesso."
+  },
+  "113": {
+    "title": "Sem TV / Computador na Residência / Celular",
+    "fato": "Sem TV / Computador na Residência / Celular",
+    "causa": "Cliente não possuía os equipamentos necessários para execução do serviço.",
+    "acao": "Atendimento foi impossibilitado e cliente informado da necessidade.",
+    "obs": "✅ Aguardando disponibilidade de equipamentos pelo cliente."
+  },
+  "120": {
+    "title": "Impossibilidade ao Atendimento",
+    "fato": "Impossibilidade ao Atendimento",
+    "causa": "Circunstâncias imprevistas impediram a visita técnica.",
+    "acao": "Atendimento reagendado ou encaminhado para reavaliação.",
+    "obs": "✅ Encaminhado para nova avaliação."
+  },
+  "202": {
+    "title": "Node em Outage",
+    "fato": "Node em Outage",
+    "causa": "Falha no Node identificada durante a visita.",
+    "acao": "Encaminhado para análise e resolução no Data Center.",
+    "obs": "✅ Atendimento suspenso até resolução do Node."
+  },
+  "204": {
+    "title": "Backbone Com Problema",
+    "fato": "Backbone Com Problema",
+    "causa": "Falha detectada no Backbone durante a visita.",
+    "acao": "Execução do serviço condicionada à resolução da falha na infraestrutura.",
+    "obs": "✅ Encaminhado para equipe de infraestrutura."
+  },
+  "205": {
+    "title": "Falta Tap ou Passivo / Tap ou Passivo Lotado",
+    "fato": "Falta Tap ou Passivo / Tap ou Passivo Lotado",
+    "causa": "Inexistência ou ocupação total do Tap/Passivo.",
+    "acao": "Encaminhado para equipe de rede para análise de disponibilidade.",
+    "obs": "✅ Atendimento pendente de disponibilidade na rede."
+  },
+  "206": {
+    "title": "Prédio Sem Backbone",
+    "fato": "Prédio Sem Backbone",
+    "causa": "Ausência de infraestrutura Backbone no MDU.",
+    "acao": "Encaminhado para tratativa de viabilidade técnica.",
+    "obs": "✅ Atendimento não realizado por falta de infraestrutura."
+  },
+  "207": {
+    "title": "Prédio Sem Retorno Ativado",
+    "fato": "Prédio Sem Retorno Ativado",
+    "causa": "Retorno do Backbone não ativado.",
+    "acao": "Encaminhado para ativação do retorno.",
+    "obs": "✅ Atendimento pendente de retorno na infraestrutura."
+  },
+  "208": {
+    "title": "Problemas no NOW",
+    "fato": "Problemas no NOW",
+    "causa": "Falha identificada no serviço de streaming (NOW).",
+    "acao": "Encaminhado ao NOC para intervenção técnica.",
+    "obs": "✅ Atendimento suspenso até correção."
+  },
+  "209": {
+    "title": "Prédio sem NAP GPON",
+    "fato": "Prédio sem NAP GPON",
+    "causa": "Ausência de estrutura para instalação GPON no prédio.",
+    "acao": "Encaminhado para tratativa de infraestrutura.",
+    "obs": "✅ Atendimento impossibilitado por falta de NAP GPON."
+  },
+  "211": {
+    "title": "Falta NAP/NAP Lotada",
+    "fato": "Falta NAP/NAP Lotada",
+    "causa": "Inexistência ou indisponibilidade de porta na NAP.",
+    "acao": "Solicitação de expansão ou reconfiguração.",
+    "obs": "✅ Atendimento suspenso por indisponibilidade de NAP."
+  },
+  "217": {
+    "title": "Backbone GPON com Problema",
+    "fato": "Backbone GPON com Problema",
+    "causa": "Falha na infraestrutura GPON.",
+    "acao": "Atendimento suspenso até correção na rede.",
+    "obs": "✅ Encaminhado para equipe de GPON."
+  },
+  "301": {
+    "title": "Tipo de OS Incorreta",
+    "fato": "Tipo de OS Incorreta",
+    "causa": "Ordem de serviço com tipo incorreto.",
+    "acao": "OS será ajustada para correta execução do serviço.",
+    "obs": "✅ Encaminhado para correção administrativa."
+  },
+  "302": {
+    "title": "Desistência da Assinatura / Serviço",
+    "fato": "Desistência da Assinatura / Serviço",
+    "causa": "Cliente desistiu do pedido.",
+    "acao": "Cancelamento do atendimento e baixa no backlog.",
+    "obs": "✅ Registro encerrado."
+  },
+  "303": {
+    "title": "Forma de Instalação Não Aceita Pelo Cliente",
+    "fato": "Forma de Instalação Não Aceita Pelo Cliente",
+    "causa": "Cliente não aceitou a forma proposta de instalação.",
+    "acao": "Atendimento não realizado.",
+    "obs": "✅ Cliente orientado e atendimento cancelado."
+  },
+  "304": {
+    "title": "Node Não Liberado (Para Virtua e/ou Net Fone)",
+    "fato": "Node Não Liberado (Para Virtua e/ou Net Fone)",
+    "causa": "Node do cliente não liberado para os produtos contratados.",
+    "acao": "Encaminhado para liberação do Node.",
+    "obs": "✅ Atendimento impossibilitado por restrição técnica."
+  },
+  "305": {
+    "title": "Rua Não Cabeada",
+    "fato": "Rua Não Cabeada",
+    "causa": "Ausência de cabeamento na rua do cliente.",
+    "acao": "Encaminhado para análise de viabilidade técnica.",
+    "obs": "✅ Atendimento impossibilitado por falta de rede."
+  },
+  "540": {
+    "title": "Conector Interno Oxidado - Troca",
+    "fato": "Conector Interno Oxidado - Troca",
+    "causa": "Identificada oxidação no conector interno.",
+    "acao": "Realizada substituição do conector.",
+    "obs": "✅ Serviço finalizado com sucesso."
+  },
+  "541": {
+    "title": "Conector Interno Mal Feito - Troca",
+    "fato": "Conector Interno Mal Feito - Troca",
+    "causa": "Execução incorreta do conector interno.",
+    "acao": "Realizada a troca do conector.",
+    "obs": "✅ Serviço normalizado."
+  },
+  "542": {
+    "title": "Conector Interno Fora Do Padrão - Troca",
+    "fato": "Conector Interno Fora Do Padrão - Troca",
+    "causa": "Utilização de conector fora do padrão exigido.",
+    "acao": "Substituição por modelo adequado.",
+    "obs": "✅ Serviço finalizado com sucesso."
+  },
+  "543": {
+    "title": "Conector TAP Oxidado - Troca",
+    "fato": "Conector TAP Oxidado - Troca",
+    "causa": "Oxidação detectada no conector TAP.",
+    "acao": "Substituição do conector TAP.",
+    "obs": "✅ Qualidade de sinal restabelecida."
+  },
+  "599": {
+    "title": "Refazer Cabeamento BSOD",
+    "fato": "Refazer Cabeamento BSOD",
+    "causa": "Cabo RG11 superior a 70 metros, fora dos padrões.",
+    "acao": "Substituição programada com equipe especializada.",
+    "obs": "✅ Encaminhado para tratativa com equipe técnica especializada."
     },
     "527": {
       "title": "Terminal Não Navega",
@@ -821,6 +975,76 @@
       "causa": "Cliente solicitou mudança nas configurações da rede sem fio.",
       "acao": "Reconfiguração do nome da rede (SSID) e/ou senha do Wi-Fi.",
       "obs": "⚠️ Cliente orientado sobre o procedimento e informado quanto à possibilidade de cobrança pela visita."
+      },
+      "500": {
+      "title": "Readequação de Sinal - Passivos",
+      "fato": "Readequação de Sinal - Passivos",
+      "causa": "Foi identificado que o passivo coaxial utilizado estava com valor incorreto, comprometendo a qualidade do sinal.",
+      "acao": "Foi realizada a substituição do passivo para um de valor adequado, equalizando o sinal.",
+      "obs": "✅ Serviço finalizado com sucesso."
+    },
+    "501": {
+      "title": "Amplificador Equalizado",
+      "fato": "Amplificador Equalizado",
+      "causa": "O sinal encontrava-se fora dos padrões devido à má equalização do amplificador.",
+      "acao": "Foi efetuada a equalização correta do amplificador, normalizando o sinal.",
+      "obs": "✅ Serviço finalizado com sucesso."
+    },
+    "502": {
+      "title": "Amplificador com Defeito - Troca",
+      "fato": "Amplificador com Defeito - Troca",
+      "causa": "O amplificador apresentava defeito de funcionamento, comprometendo o sinal.",
+      "acao": "Realizou-se a substituição do equipamento defeituoso, restabelecendo o serviço.",
+      "obs": "✅ Serviço finalizado com sucesso."
+    },
+    "503": {
+      "title": "Amplificador Queimado - Troca",
+      "fato": "Amplificador Queimado - Troca",
+      "causa": "Foi identificado que o amplificador estava queimado, impossibilitando seu funcionamento.",
+      "acao": "Substituição do equipamento realizada com sucesso.",
+      "obs": "✅ Serviço finalizado com sucesso."
+    },
+    "504": {
+      "title": "Instalação de Amplificador",
+      "fato": "Instalação de Amplificador",
+      "causa": "Foi necessária a instalação de amplificador para estabilizar o sinal da rede.",
+      "acao": "Foi realizada a instalação de novo amplificador.",
+      "obs": "✅ Serviço finalizado com sucesso."
+    },
+    "505": {
+      "title": "Passivo Interno Queimado/Degradado - Troca",
+      "fato": "Passivo Interno Queimado/Degradado - Troca",
+      "causa": "Foi constatado que o passivo coaxial interno estava queimado ou degradado.",
+      "acao": "Foi realizada a troca do componente comprometido.",
+      "obs": "✅ Serviço finalizado com sucesso."
+    },
+    "506": {
+      "title": "Passivo Interno Fora do Padrão - Troca",
+      "fato": "Passivo Interno Fora do Padrão - Troca",
+      "causa": "Identificou-se a utilização de passivo coaxial interno fora dos padrões homologados.",
+      "acao": "Efetuou-se a substituição por componentes adequados.",
+      "obs": "✅ Serviço finalizado com sucesso."
+    },
+    "507": {
+      "title": "Passivo MDU Queimado/Degradado - Troca",
+      "fato": "Passivo MDU Queimado/Degradado - Troca",
+      "causa": "Foi identificado que o passivo no MDU ou na prumada estava queimado ou degradado.",
+      "acao": "Realizou-se a troca do componente comprometido.",
+      "obs": "✅ Serviço finalizado com sucesso."
+    },
+    "508": {
+      "title": "Passivo MDU Fora do Padrão - Troca",
+      "fato": "Passivo MDU Fora do Padrão - Troca",
+      "causa": "Detectou-se a presença de passivo fora do padrão técnico no MDU ou prumada.",
+      "acao": "O componente foi substituído por modelo homologado.",
+      "obs": "✅ Serviço finalizado com sucesso."
+    },
+    "509": {
+      "title": "Cable Isolator Danificado/Queimado - Troca",
+      "fato": "Cable Isolator Danificado/Queimado - Troca",
+      "causa": "Foi constatado que o Cable Isolator encontrava-se danificado ou queimado.",
+      "acao": "Foi efetuada a substituição do componente, normalizando o serviço.",
+      "obs": "✅ Serviço finalizado com sucesso."
     }
   }
 }
