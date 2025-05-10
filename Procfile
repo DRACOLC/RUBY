@@ -1,0 +1,1 @@
+python TelegramTechBot/main.py
