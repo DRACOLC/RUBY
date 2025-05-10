@@ -1,1 +1,1 @@
-python TelegramTechBot/main.py
+python main.py
