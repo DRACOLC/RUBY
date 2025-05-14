@@ -616,10 +616,10 @@
   "fac": {
     "100": {
       "title": "Agendamento Não Cumprido",
-      "fato": "Agendamento Não Cumprido",
-      "causa": "O técnico não conseguiu cumprir o período agendado com o cliente, impedindo a execução do serviço.",
-      "acao": "Encaminhado para reagendamento da visita.",
-      "obs": "✅ Serviço reagendado conforme disponibilidade."
+      "*fato*": "Agendamento Não Cumprido",
+      "*causa*": "O técnico não conseguiu cumprir o período agendado com o cliente, impedindo a execução do serviço.",
+      "*acao*": "Encaminhado para reagendamento da visita.",
+      "*obs*": "✅ Serviço reagendado conforme disponibilidade."
     },
     "101": {
       "title": "Endereço Não Localizado",
