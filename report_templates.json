@@ -483,6 +483,134 @@
     "594": {
       "title": "Reconfiguração da Senha Wi-Fi",
       "description": "Reconfiguração do nome da rede (SSID) e/ou senha do Wi-Fi. Cliente orientado sobre o procedimento e informado quanto à possibilidade de cobrança pela visita."
+    },
+  "125": {
+    "title": "Cliente desiste da Agenda",
+    "description": "Durante a visita técnica, o cliente solicitou novo agendamento em razão de [motivo]. Obs: [inserir detalhes do motivo]. Agendamento reagendado para: [data/hora]."
+  },
+  "306": {
+    "title": "Não Reside no Endereço",
+    "description": "Durante a visita técnica, constatou-se que o cliente não reside no endereço informado. Obs: [endereço correto]. Reagendado para nova visita no local correto."
+  },
+  "307": {
+    "title": "Residência em Construção / Reforma",
+    "description": "Durante a visita técnica, identificou-se que a residência está em construção ou reforma, impossibilitando o serviço. Obs: [descrever obstáculos]. Reagendado após conclusão da obra."
+  },
+  "308": {
+    "title": "Instalação Não Contemplará Padrão",
+    "description": "Durante a visita técnica, verificou-se que a instalação exigida violaria os padrões técnicos de segurança da Claro. Obs: [detalhar não conformidade]. Encaminhado para equipe de projeto avaliar solução."
+  },
+  "309": {
+    "title": "Computador não possui configuração Mínima",
+    "description": "Durante a visita técnica, o equipamento do cliente não atende aos requisitos mínimos (placa de rede, Wi-Fi, etc.). Obs: [listar faltantes]. Orientado o cliente e reagendado após adequação."
+  },
+  "312": {
+    "title": "Cliente não solicitou serviço",
+    "description": "Durante a visita técnica, o cliente afirmou não ter solicitado o serviço. Obs: [anotar consulta de pedido]. OS cancelada e COP notificado."
+  },
+  "316": {
+    "title": "Rua não cabeada GPON",
+    "description": "Durante a visita técnica, identificou-se ausência de cabeamento de fibra GPON na rua. Obs: [localização exata]. Solicitação de implantação de rede registrada."
+  },
+  "400": {
+    "title": "Correção de Cadastro",
+    "description": "Durante o atendimento, detectou-se inconsistências cadastrais que impedem a conclusão do serviço. Obs: [detalhar divergências]. OS de cadastro aberta."
+  },
+  "402": {
+    "title": "Divergência de Dados Cadastrais",
+    "description": "Durante a visita técnica, constatou-se divergência entre dados informados e sistema. Obs: [campos divergentes]. COP notificado para correção."
+  },
+  "404": {
+    "title": "Cliente Recusa-se Devolver o Decoder / Cable Modem",
+    "description": "Durante a visita de desconexão, o cliente recusou devolver o equipamento. Obs: [equipamento e quantidade]. Agendada nova coleta ou instruídas instruções de devolução."
+  },
+  "408": {
+    "title": "Equipamento do Cliente com Defeito",
+    "description": "Durante a visita técnica, identificou-se defeito no equipamento de propriedade do cliente. Obs: [tipo de defeito]. Cliente orientado a providenciar reparo ou substituição."
+  },
+  "409": {
+    "title": "Instalação Efetuada",
+    "description": "Durante a visita técnica, a instalação do extensor MESH via Wi-Fi foi concluída com sucesso. Obs: [SSID/posição]."
+  },
+  "428": {
+    "title": "Desconexão Efetuada com Retirada de Equipamento",
+    "description": "Durante a visita técnica, efetuou-se a desconexão do serviço e retirada dos equipamentos. Obs: [equipamentos removidos]."
+  },
+  "429": {
+    "title": "Desconexão Efetuada sem Retirada de Equipamento",
+    "description": "Durante a visita técnica, efetuou-se a desconexão do serviço, mas o cliente permaneceu com os equipamentos. Obs: [equipamentos com cliente]."
+  },
+  "430": {
+    "title": "Equipamento Retirado",
+    "description": "Durante a visita técnica, foram retirados os equipamentos instalados na residência. Obs: [inventário de equipamentos]."
+  },
+  "466": {
+    "title": "Orçamento Retirado",
+    "description": "Durante a vistoria, elaborou-se orçamento para reparo/troca de componentes. Obs: [valores estimados]."
+  },
+  "468": {
+    "title": "Caso Procedente Resolvido Durante a Vistoria",
+    "description": "Durante a vistoria, o problema foi confirmado e solucionado imediatamente. Obs: [ação executada]."
+  },
+  "469": {
+    "title": "Caso Indefinido",
+    "description": "Durante a vistoria, constatou-se a ocorrência, mas não foi possível resolver no momento. Obs: [motivo da indefinição]. Orçamento/laudo solicitado."
+  },
+  "470": {
+    "title": "Caso Improcedente",
+    "description": "Durante a vistoria, após análise, não se constatou falha procedente."
+  },
+  "471": {
+    "title": "Reconfiguração do SSID / Senha Wi-Fi",
+    "description": "Durante a visita técnica, foi realizada a reconfiguração de SSID e senha do extensor MESH. Obs: [novo SSID]."
+  },
+  "472": {
+    "title": "Instruções de Uso do Equipamento – Extensor",
+    "description": "Durante a visita técnica, foram fornecidas instruções de uso e melhores práticas para o extensor MESH."
+  },
+  "473": {
+    "title": "Necessidade de Instalação via Cabo Ethernet",
+    "description": "Durante a visita técnica, constatou-se que o extensor exige conexão cabeada para estabilidade. Obs: [local do cabeamento]."
+  },
+  "474": {
+    "title": "Reposicionado o Extensor",
+    "description": "Durante a visita técnica, reposicionou-se o extensor para otimizar cobertura. Obs: [nova posição]."
+  },
+  "475": {
+    "title": "Velocidade do Extensor Conforme Contratada",
+    "description": "Durante os testes, o extensor apresentou a velocidade contratada pelo cliente. Obs: [valores TX/RX]."
+  },
+  "476": {
+    "title": "Reconfigurado / Pareamento de Extensores",
+    "description": "Durante a visita técnica, foi realizado o pareamento e reconfiguração dos extensores MESH. Obs: [unidades pareadas]."
+  },
+  "477": {
+    "title": "Instalação Mesh Cabeada",
+    "description": "Durante a visita técnica, a instalação do extensor MESH via cabo Ethernet foi concluída. Obs: [comprimento do cabo]."
+  },
+  "499": {
+    "title": "Desconexão por Risco de Subscrição",
+    "description": "Durante a visita técnica, o serviço foi desconectado por risco de subscrição identificado. Obs: [descrição do risco]."
+  },
+  "559": {
+    "title": "Sem Defeito no Produto Virtua Reclamado",
+    "description": "Durante a visita técnica, após testes, não foi identificado defeito no serviço Virtua reclamado."
+  },
+  "561": {
+    "title": "Ponto Sem Cadastro Não Regularizado",
+    "description": "Durante a visita técnica, constatou-se ponto(s) sem cadastro e o cliente optou por não regularizar. Obs: [quantidade de pontos]."
+  },
+  "579": {
+    "title": "Limpeza de Ruído Executada",
+    "description": "Durante a visita técnica, foi executada limpeza de ruído na rede do cliente. Obs: [níveis antes/depois]."
+  },
+  "597": {
+    "title": "Troca de Pilha",
+    "description": "Durante a visita técnica, foram substituídas as pilhas do controle remoto conforme solicitação."
+  },
+  "815": {
+    "title": "Envio de Chip via Correio",
+    "description": "Durante o atendimento, o chip foi enviado ao cliente via Correio. Obs: [nº de rastreamento]."
     }
   },
   "fac": {
@@ -1045,6 +1173,230 @@
       "causa": "Foi constatado que o Cable Isolator encontrava-se danificado ou queimado.",
       "acao": "Foi efetuada a substituição do componente, normalizando o serviço.",
       "obs": "✅ Serviço finalizado com sucesso."
+      },
+  "125": {
+    "title": "Cliente desiste da Agenda",
+    "fato": "Cliente desiste da Agenda",
+    "causa": "Durante a visita técnica, o cliente solicitou novo agendamento em razão de [motivo].",
+    "acao": "Agendamento reagendado para: [data/hora].",
+    "obs": "✅ Novo agendamento registrado."
+  },
+  "306": {
+    "title": "Não Reside no Endereço",
+    "fato": "Não Reside no Endereço",
+    "causa": "Durante a visita técnica, constatou-se que o cliente não reside no endereço informado.",
+    "acao": "Reagendado para nova visita no local correto.",
+    "obs": "✅ Endereço corrigido em sistema."
+  },
+  "307": {
+    "title": "Residência em Construção / Reforma",
+    "fato": "Residência em Construção / Reforma",
+    "causa": "Durante a visita técnica, identificou-se que a residência está em construção ou reforma, inviabilizando o serviço.",
+    "acao": "Reagendado após conclusão da obra.",
+    "obs": "✅ Visita reagendada."
+  },
+  "308": {
+    "title": "Instalação Não Contemplará Padrão",
+    "fato": "Instalação Não Contemplará Padrão",
+    "causa": "Durante a visita técnica, verificou-se que a instalação exigida violaria os padrões técnicos de segurança da Claro.",
+    "acao": "Encaminhado para equipe de projeto avaliar solução.",
+    "obs": "✅ Solução em análise."
+  },
+  "309": {
+    "title": "Computador não possui configuração Mínima",
+    "fato": "Computador não possui configuração Mínima",
+    "causa": "Durante a visita técnica, o equipamento do cliente não atende aos requisitos mínimos (placa de rede, Wi-Fi, etc.).",
+    "acao": "Orientado o cliente e reagendado após adequação.",
+    "obs": "✅ Condições mínimas aguardadas."
+  },
+  "312": {
+    "title": "Cliente não solicitou serviço",
+    "fato": "Cliente não solicitou serviço",
+    "causa": "Durante a visita técnica, o cliente afirmou não ter solicitado o serviço.",
+    "acao": "OS cancelada e COP notificado.",
+    "obs": "✅ Serviço não solicitado."
+  },
+  "316": {
+    "title": "Rua não cabeada GPON",
+    "fato": "Rua não cabeada GPON",
+    "causa": "Durante a visita técnica, identificou-se ausência de cabeamento de fibra GPON na rua.",
+    "acao": "Solicitação de implantação de rede registrada.",
+    "obs": "✅ Demanda de infraestrutura criada."
+  },
+  "400": {
+    "title": "Correção de Cadastro",
+    "fato": "Correção de Cadastro",
+    "causa": "Durante o atendimento, detectou-se inconsistências cadastrais que impedem a conclusão do serviço.",
+    "acao": "OS de cadastro aberta.",
+    "obs": "✅ Dados encaminhados para atualização."
+  },
+  "402": {
+    "title": "Divergência de Dados Cadastrais",
+    "fato": "Divergência de Dados Cadastrais",
+    "causa": "Durante a visita técnica, constatou-se divergência entre dados informados e sistema.",
+    "acao": "COP notificado para correção.",
+    "obs": "✅ Aguardando ajuste cadastral."
+  },
+  "404": {
+    "title": "Cliente Recusa-se Devolver o Decoder / Cable Modem",
+    "fato": "Cliente Recusa-se Devolver o Decoder / Cable Modem",
+    "causa": "Durante a visita de desconexão, o cliente recusou devolver o equipamento.",
+    "acao": "Agendada nova coleta ou instruídas instruções de devolução.",
+    "obs": "✅ Coleta pendente."
+  },
+  "408": {
+    "title": "Equipamento do Cliente com Defeito",
+    "fato": "Equipamento do Cliente com Defeito",
+    "causa": "Durante a visita técnica, identificou-se defeito no equipamento de propriedade do cliente.",
+    "acao": "Cliente orientado a providenciar reparo ou substituição.",
+    "obs": "✅ Aguardando reparo do cliente."
+  },
+  "409": {
+    "title": "Instalação Efetuada",
+    "fato": "Instalação Efetuada",
+    "causa": "Durante a visita técnica, a instalação do extensor MESH via Wi-Fi foi concluída com sucesso.",
+    "acao": "Serviço concluído normalmente.",
+    "obs": "✅ Extensor operacional."
+  },
+  "428": {
+    "title": "Desconexão Efetuada com Retirada de Equipamento",
+    "fato": "Desconexão Efetuada com Retirada de Equipamento",
+    "causa": "Durante a visita técnica, efetuou-se a desconexão do serviço e retirada dos equipamentos.",
+    "acao": "Ativos devolvidos ao estoque.",
+    "obs": "✅ Equipamentos registrados."
+  },
+  "429": {
+    "title": "Desconexão Efetuada sem Retirada de Equipamento",
+    "fato": "Desconexão Efetuada sem Retirada de Equipamento",
+    "causa": "Durante a visita técnica, efetuou-se a desconexão do serviço, mas o cliente permaneceu com os equipamentos.",
+    "acao": "Cliente instruído a devolver equipamento.",
+    "obs": "✅ Aguardando devolução."
+  },
+  "430": {
+    "title": "Equipamento Retirado",
+    "fato": "Equipamento Retirado",
+    "causa": "Durante a visita técnica, foram retirados os equipamentos instalados na residência.",
+    "acao": "Ativos devolvidos ao estoque.",
+    "obs": "✅ Retirada concluída."
+  },
+  "466": {
+    "title": "Orçamento Retirado",
+    "fato": "Orçamento Retirado",
+    "causa": "Durante a vistoria, elaborou-se orçamento para reparo/troca de componentes.",
+    "acao": "Orçamento enviado para aprovação.",
+    "obs": "✅ Aguardando retorno do cliente."
+  },
+  "468": {
+    "title": "Caso Procedente Resolvido Durante a Vistoria",
+    "fato": "Caso Procedente Resolvido Durante a Vistoria",
+    "causa": "Durante a vistoria, o problema foi confirmado e solucionado imediatamente.",
+    "acao": "Serviço normalizado.",
+    "obs": "✅ Verificação positiva."
+  },
+  "469": {
+    "title": "Caso Indefinido",
+    "fato": "Caso Indefinido",
+    "causa": "Durante a vistoria, constatou-se a ocorrência, mas não foi possível resolver no momento.",
+    "acao": "Orçamento/laudo solicitado.",
+    "obs": "✅ Aguardando laudo."
+  },
+  "470": {
+    "title": "Caso Improcedente",
+    "fato": "Caso Improcedente",
+    "causa": "Durante a vistoria, após análise, não se constatou falha procedente.",
+    "acao": "OS encerrada.",
+    "obs": "✅ Visita finalizada."
+  },
+  "471": {
+    "title": "Reconfiguração do SSID / Senha Wi-Fi",
+    "fato": "Reconfiguração do SSID / Senha Wi-Fi",
+    "causa": "Durante a visita técnica, foi realizada a reconfiguração de SSID e senha do extensor MESH.",
+    "acao": "Teste de conectividade realizado.",
+    "obs": "✅ SSID atualizado."
+  },
+  "472": {
+    "title": "Instruções de Uso do Equipamento – Extensor",
+    "fato": "Instruções de Uso do Equipamento – Extensor",
+    "causa": "Durante a visita técnica, foram fornecidas instruções de uso e melhores práticas para o extensor MESH.",
+    "acao": "Cliente orientado.",
+    "obs": "✅ Instruções concluidas."
+  },
+  "473": {
+    "title": "Necessidade de Instalação via Cabo Ethernet",
+    "fato": "Necessidade de Instalação via Cabo Ethernet",
+    "causa": "Durante a visita técnica, constatou-se que o extensor exige conexão cabeada para estabilidade.",
+    "acao": "Instalação cabeada realizada.",
+    "obs": "✅ Cabo instalado."
+  },
+  "474": {
+    "title": "Reposicionado o Extensor",
+    "fato": "Reposicionado o Extensor",
+    "causa": "Durante a visita técnica, reposicionou-se o extensor para otimizar cobertura.",
+    "acao": "Posição ajustada e testada.",
+    "obs": "✅ Sinal validado."
+  },
+  "475": {
+    "title": "Velocidade do Extensor Conforme Contratada",
+    "fato": "Velocidade do Extensor Conforme Contratada",
+    "causa": "Durante os testes, o extensor apresentou a velocidade contratada pelo cliente.",
+    "acao": "Visita concluída.",
+    "obs": "✅ Velocidade confirmada."
+  },
+  "476": {
+    "title": "Reconfigurado / Pareamento de Extensores",
+    "fato": "Reconfigurado / Pareamento de Extensores",
+    "causa": "Durante a visita técnica, foi realizado o pareamento e reconfiguração dos extensores MESH.",
+    "acao": "Rede integrada validada.",
+    "obs": "✅ Pareamento bem-sucedido."
+  },
+  "477": {
+    "title": "Instalação Mesh Cabeada",
+    "fato": "Instalação Mesh Cabeada",
+    "causa": "Durante a visita técnica, a instalação do extensor MESH via cabo Ethernet foi concluída.",
+    "acao": "Desempenho validado.",
+    "obs": "✅ Instalação estável."
+  },
+  "499": {
+    "title": "Desconexão por Risco de Subscrição",
+    "fato": "Desconexão por Risco de Subscrição",
+    "causa": "Durante a visita técnica, o serviço foi desconectado por risco de subscrição identificado.",
+    "acao": "OS atualizada como desconectada por risco.",
+    "obs": "✅ Registro de risco concluído."
+  },
+  "559": {
+    "title": "Sem Defeito no Produto Virtua Reclamado",
+    "fato": "Sem Defeito no Produto Virtua Reclamado",
+    "causa": "Durante a visita técnica, após testes, não foi identificado defeito no serviço Virtua reclamado.",
+    "acao": "OS encerrada como sem defeito.",
+    "obs": "✅ Serviço operante."
+  },
+  "561": {
+    "title": "Ponto Sem Cadastro Não Regularizado",
+    "fato": "Ponto Sem Cadastro Não Regularizado",
+    "causa": "Durante a visita técnica, constatou-se ponto(s) sem cadastro e o cliente optou por não regularizar.",
+    "acao": "OS suspensa até regularização.",
+    "obs": "✅ Aguardando cadastro."
+  },
+  "579": {
+    "title": "Limpeza de Ruído Executada",
+    "fato": "Limpeza de Ruído Executada",
+    "causa": "Durante a visita técnica, foi executada limpeza de ruído na rede do cliente.",
+    "acao": "Qualidade de sinal testada.",
+    "obs": "✅ Sinal otimizado."
+  },
+  "597": {
+    "title": "Troca de Pilha",
+    "fato": "Troca de Pilha",
+    "causa": "Durante a visita técnica, foram substituídas as pilhas do controle remoto conforme solicitação.",
+    "acao": "Funcionamento testado.",
+    "obs": "✅ Pilhas novas instaladas."
+  },
+  "815": {
+    "title": "Envio de Chip via Correio",
+    "fato": "Envio de Chip via Correio",
+    "causa": "Durante o atendimento, o chip foi enviado ao cliente via Correio.",
+    "acao": "Rastreio informado ao cliente.",
+    "obs": "✅ Aguardando entrega."
     }
   }
 }
