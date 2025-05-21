@@ -662,6 +662,13 @@
       "causa": "O técnico não obteve autorização do responsável para entrar na residência, impossibilitando a execução do serviço.",
       "acao": "Encaminhado para novo agendamento ou revisão da autorização de entrada.",
       "obs": "✅ Serviço será reagendado após autorização."
+      },
+      "570": {
+  "title": "Cabeamento Coaxial Comprometido",
+  "fato": "Cabeamento Coaxial em Condições Inadequadas",
+  "causa": "Durante a visita técnica, foi identificado que o cabeamento coaxial encontra-se comprometido, afetando a qualidade do serviço.",
+  "acao": "Encaminhado ao COP para programação de equipe especializada para refazer o cabeamento.",
+  "obs": "✅ Aguardando reprogramação com equipe especializada para substituição do cabeamento."
     },
     "107": {
       "title": "Entrada Não Autorizada Pelo Cliente",
