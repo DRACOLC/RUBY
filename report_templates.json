@@ -1397,6 +1397,15 @@
     "causa": "Durante a visita técnica, foram substituídas as pilhas do controle remoto conforme solicitação.",
     "acao": "Funcionamento testado.",
     "obs": "✅ Pilhas novas instaladas."
+    },
+    "574": {
+  "title": "-Instabilidade Corrigida pelo Data Center",
+  "fato": "-Cliente com serviço indisponível.",
+  "causa": "-Instabilidade de origem sistêmica, necessitando apoio do Data Center.",
+  "acao": "-Correções efetuadas remotamente pelo Data Center, serviço normalizado com sucesso.",
+  "obs": "-Cliente acompanhou o atendimento e confirmou o restabelecimento do serviço.",
+  "atendido": "- [Nome do cliente]",
+  "contato": "→ [Número de telefone do cliente]"
     }
   }
 }
