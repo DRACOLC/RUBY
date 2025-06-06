@@ -1411,17 +1411,11 @@
 },
     "574": {
   "title": "-Instabilidade Corrigida pelo Data Center",
-      
   "fato": "-Cliente com serviço indisponível.",
-      
   "causa": "-Instabilidade de origem sistêmica, necessitando apoio do Data Center.",
-      
   "acao": "-Correções efetuadas remotamente pelo Data Center, serviço normalizado com sucesso.",
-      
-  "*obs*": "✅ -Cliente acompanhou o atendimento e confirmou o restabelecimento do serviço. CLIENTE: → [Nome do cliente] | CONTATO: → [Número de telefone do cliente]"
-   
+  "obs": "✅ -Cliente acompanhou o atendimento e confirmou o restabelecimento do serviço. CLIENTE: → [Nome do cliente] | CONTATO: → [Número de telefone do cliente]"
   "atendido": " -[Nome do cliente]",
-      
   "contato": " -[Número de telefone]"
     }
   }
