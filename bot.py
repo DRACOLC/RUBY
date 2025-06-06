@@ -193,6 +193,8 @@ async def grupo_fac_command(update: Update, context: ContextTypes.DEFAULT_TYPE) 
             f"*FAC-{code}*\n"
             f"FATO: {template['fato']}\n"
             f"AÇÃO: {template['acao']}\n\n"
+           f"CONTATO: {template.get('contato', '-')}\n"
+    f"ATENDIDO: {template.get('atendido', '-')}"
             f"_Use o comando /fac para ver todos os detalhes_"
         )
         await update.message.reply_text(response, parse_mode='Markdown')
