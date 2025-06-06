@@ -31,11 +31,13 @@ def load_templates():
             },
             "fac": {
                 "103": {
-                    "title": "Chuva",
-                    "fato": "Chuva",
-                    "causa": "A execução do serviço foi impossibilitada devido à ocorrência de chuvas intensas no momento da visita técnica.",
-                    "acao": "A atividade será reagendada conforme as condições climáticas permitirem.",
+                    "title": "- Chuva",
+                    "fato": "- Chuva",
+                    "causa": "- A execução do serviço foi impossibilitada devido à ocorrência de chuvas intensas no momento da visita técnica.",
+                    "acao": "- A atividade será reagendada conforme as condições climáticas permitirem.",
                     "obs": "✅ Encaminhado ao COP para validação da visita."
+                    "contato": "- ",
+                    "atendido": "nome"
                 }
             }
         }
