@@ -1399,27 +1399,30 @@
     "obs": "✅ Pilhas novas instaladas."
   },
   "815": {
-  "*title": "Envio de Chip via Correio",
+  "title": "Envio de Chip via Correio",
     
-  "*fato*": "Envio de Chip via Correio",
+  "fato": "Envio de Chip via Correio",
     
-  "*causa*": "Durante o atendimento, o chip foi enviado ao cliente via Correio.",
+  "causa": "Durante o atendimento, o chip foi enviado ao cliente via Correio.",
     
-  "*acao*": "Rastreio informado ao cliente.",
+  "acao": "Rastreio informado ao cliente.",
     
-  "*obs*": "✅ Aguardando entrega."
+  "obs": "✅ Aguardando entrega."
 },
     "574": {
-  "*title*": "Instabilidade Corrigida pelo Data Center",
-  "*fato*": "Cliente com serviço indisponível.",
-  "*causa*": "Instabilidade de origem sistêmica, necessitando apoio do Data Center.",
-  "*acao*": "Correções efetuadas remotamente pelo Data Center, serviço normalizado com sucesso.",
+  "title": "-Instabilidade Corrigida pelo Data Center",
       
-  "*obs*": "✅ Cliente acompanhou o atendimento e confirmou o restabelecimento do serviço. CLIENTE: → [Nome do cliente] | CONTATO: → [Número de telefone do cliente]"
+  "fato": "-Cliente com serviço indisponível.",
+      
+  "causa": "-Instabilidade de origem sistêmica, necessitando apoio do Data Center.",
+      
+  "acao": "-Correções efetuadas remotamente pelo Data Center, serviço normalizado com sucesso.",
+      
+  "*obs*": "✅ -Cliente acompanhou o atendimento e confirmou o restabelecimento do serviço. CLIENTE: → [Nome do cliente] | CONTATO: → [Número de telefone do cliente]"
    
-  "atendido": " [Nome do cliente]",
+  "atendido": " -[Nome do cliente]",
       
-  "contato": " [Número de telefone]"
+  "contato": " -[Número de telefone]"
     }
   }
 }
