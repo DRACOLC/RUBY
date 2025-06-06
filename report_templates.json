@@ -615,797 +615,1020 @@
   },
   "fac": {
     "100": {
-      "title": "Agendamento Não Cumprido",
-      "*fato*": "Agendamento Não Cumprido",
-      "*causa*": "O técnico não conseguiu cumprir o período agendado com o cliente, impedindo a execução do serviço.",
-      "*acao*": "Encaminhado para reagendamento da visita.",
-      "*obs*": "✅ Serviço reagendado conforme disponibilidade."
-    },
-    "101": {
-      "title": "Endereço Não Localizado",
-      "fato": "Endereço Não Localizado",
-      "causa": "O técnico não conseguiu localizar o endereço fornecido para a execução do serviço.",
-      "acao": "Encaminhado para revisão de dados cadastrais e nova tentativa de agendamento.",
-      "obs": "✅ Serviço será reagendado após atualização de dados."
-    },
-    "102": {
-      "title": "Área / Situação de Risco",
-      "fato": "Área / Situação de Risco",
-      "causa": "O técnico identificou uma situação de risco à integridade física na residência do cliente.",
-      "acao": "Encaminhado para avaliação de segurança e possível replanejamento.",
-      "obs": "✅ Serviço não realizado por questões de segurança."
-    },
-    "103": {
-      "title": "Chuva",
-      "fato": "Chuva",
-      "causa": "O serviço não pôde ser realizado devido à chuva intensa no momento da visita.",
-      "acao": "A atividade será reagendada conforme as condições climáticas permitirem.",
-      "obs": "✅ Encaminhado ao COP para validação da visita."
+  "title": "- Agendamento Não Cumprido",
+  "fato": "- Agendamento Não Cumprido",
+  "causa": "- O técnico não conseguiu cumprir o período agendado com o cliente, impedindo a execução do serviço.",
+  "acao": "- Encaminhado para reagendamento da visita.",
+  "obs": "- ✅ Serviço reagendado conforme disponibilidade.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"101": {
+  "title": "- Endereço Não Localizado",
+  "fato": "- Endereço Não Localizado",
+  "causa": "- O técnico não conseguiu localizar o endereço fornecido para a execução do serviço.",
+  "acao": "- Encaminhado para revisão de dados cadastrais e nova tentativa de agendamento.",
+  "obs": "- ✅ Serviço será reagendado após atualização de dados.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"102": {
+  "title": "- Área / Situação de Risco",
+  "fato": "- Área / Situação de Risco",
+  "causa": "- O técnico identificou uma situação de risco à integridade física na residência do cliente.",
+  "acao": "- Encaminhado para avaliação de segurança e possível replanejamento.",
+  "obs": "- ✅ Serviço não realizado por questões de segurança.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"103": {
+  "title": "- Chuva",
+  "fato": "- Chuva",
+  "causa": "- O serviço não pôde ser realizado devido à chuva intensa no momento da visita.",
+  "acao": "- A atividade será reagendada conforme as condições climáticas permitirem.",
+  "obs": "- ✅ Encaminhado ao COP para validação da visita.",
+  "contato": "- ",
+  "atendido": "nome"
     },
     "104": {
-      "title": "Falta de Material",
-      "fato": "Falta de Material",
-      "causa": "O serviço não pôde ser realizado devido à falta de material ou equipamento necessário.",
-      "acao": "Encaminhado para abastecimento de materiais e novo agendamento.",
-      "obs": "✅ Serviço reagendado após o abastecimento de materiais."
+  "title": "- Falta de Material",
+  "fato": "- Falta de Material",
+  "causa": "- O serviço não pôde ser realizado devido à falta de material ou equipamento necessário.",
+  "acao": "- Encaminhado para abastecimento de materiais e novo agendamento.",
+  "obs": "- ✅ Serviço reagendado após o abastecimento de materiais.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"105": {
+  "title": "- Sem Energia Elétrica",
+  "fato": "- Sem Energia Elétrica Na Região / Prédio / Residência",
+  "causa": "- O serviço não pôde ser executado devido à falta de energia elétrica na região, prédio ou residência.",
+  "acao": "- Encaminhado para aguardar a restauração da energia e reagendamento da visita.",
+  "obs": "- ✅ Serviço reagendado após restauração da energia elétrica.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"106": {
+  "title": "- Entrada Não Autorizada",
+  "fato": "- Entrada Não Autorizada",
+  "causa": "- O técnico não obteve autorização do responsável para entrar na residência, impossibilitando a execução do serviço.",
+  "acao": "- Encaminhado para novo agendamento ou revisão da autorização de entrada.",
+  "obs": "- ✅ Serviço será reagendado após autorização.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"570": {
+  "title": "- Cabeamento Coaxial Comprometido",
+  "fato": "- Cabeamento Coaxial em Condições Inadequadas",
+  "causa": "- Durante a visita técnica, foi identificado que o cabeamento coaxial encontra-se comprometido, afetando a qualidade do serviço.",
+  "acao": "- ✅ Aguardando reprogramação com equipe especializada para substituição do cabeamento.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+  "107": {
+  "title": "- Entrada Não Autorizada Pelo Cliente",
+  "fato": "- Entrada Não Autorizada Pelo Cliente",
+  "causa": "- O cliente não autorizou a entrada para a execução do serviço, impossibilitando o atendimento.",
+  "acao": "- Encaminhado para novo agendamento ou verificação da autorização de entrada.",
+  "obs": "- ✅ Serviço será reagendado conforme autorização do cliente.",
+  "contato": "- ",
+  "atendido": "nome"
+ },
+   "108": {
+  "title": "- Tubulação Obstruída sem Solução",
+  "fato": "- Tubulação Obstruída sem Solução",
+  "causa": "- Foi identificado que seria necessário realizar uma obra civil ou alteração na rede elétrica para viabilizar o serviço.",
+  "acao": "- Cliente foi informado da necessidade dessa intervenção, que não pode ser realizada no momento.",
+  "obs": "- ✅ Serviço suspenso até correção da tubulação pelo cliente.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"109": {
+  "title": "- Problema na Rede Elétrica",
+  "fato": "- Problema na Rede Elétrica",
+  "causa": "- Falha na rede elétrica do cliente, impedindo a execução do serviço.",
+  "acao": "- Cliente foi orientado sobre a necessidade de corrigir a rede elétrica para viabilizar o serviço.",
+  "obs": "- ✅ Serviço reagendado após correção da rede elétrica.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"110": {
+  "title": "- Problema na Tubulação",
+  "fato": "- Problema na Tubulação",
+  "causa": "- Identificado problema na tubulação, sendo responsabilidade do cliente corrigir para a execução do serviço.",
+  "acao": "- Serviço não executado até a resolução do problema pelo cliente.",
+  "obs": "- ✅ Serviço será reagendado após resolução do problema na tubulação.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"203": {
+  "title": "- Rede Externa",
+  "fato": "- Problema na Rede Externa",
+  "causa": "- Durante a visita técnica, identificou-se que o problema está localizado na rede externa, afetando a qualidade do serviço. Os parâmetros registrados foram: TX: [informar] RX: [informar] CA: [informar] CB: [informar].",
+  "acao": "- Encaminhado para manutenção na rede.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras.",
+  "contato": "- ",
+  "atendido": "nome"
     },
-    "105": {
-      "title": "Sem Energia Elétrica",
-      "fato": "Sem Energia Elétrica Na Região / Prédio / Residência",
-      "causa": "O serviço não pôde ser executado devido à falta de energia elétrica na região, prédio ou residência.",
-      "acao": "Encaminhado para aguardar a restauração da energia e reagendamento da visita.",
-      "obs": "✅ Serviço reagendado após restauração da energia elétrica."
-    },
-    "106": {
-      "title": "Entrada Não Autorizada",
-      "fato": "Entrada Não Autorizada",
-      "causa": "O técnico não obteve autorização do responsável para entrar na residência, impossibilitando a execução do serviço.",
-      "acao": "Encaminhado para novo agendamento ou revisão da autorização de entrada.",
-      "obs": "✅ Serviço será reagendado após autorização."
-      },
-      "570": {
-  "title": "Cabeamento Coaxial Comprometido",
-  "fato": "Cabeamento Coaxial em Condições Inadequadas",
-  "causa": "Durante a visita técnica, foi identificado que o cabeamento coaxial encontra-se comprometido, afetando a qualidade do serviço.",
-  "acao": "Encaminhado ao COP para programação de equipe especializada para refazer o cabeamento.",
-  "obs": "✅ Aguardando reprogramação com equipe especializada para substituição do cabeamento."
-    },
-    "107": {
-      "title": "Entrada Não Autorizada Pelo Cliente",
-      "fato": "Entrada Não Autorizada Pelo Cliente",
-      "causa": "O cliente não autorizou a entrada para a execução do serviço, impossibilitando o atendimento.",
-      "acao": "Encaminhado para novo agendamento ou verificação da autorização de entrada.",
-      "obs": "✅ Serviço será reagendado conforme autorização do cliente."
-    },
-    "108": {
-      "title": "Tubulação Obstruída sem Solução",
-      "fato": "Tubulação Obstruída sem Solução",
-      "causa": "Foi identificado que seria necessário realizar uma obra civil ou alteração na rede elétrica para viabilizar o serviço.",
-      "acao": "Cliente foi informado da necessidade dessa intervenção, que não pode ser realizada no momento.",
-      "obs": "✅ Serviço suspenso até correção da tubulação pelo cliente."
-    },
-    "109": {
-      "title": "Problema na Rede Elétrica",
-      "fato": "Problema na Rede Elétrica",
-      "causa": "Falha na rede elétrica do cliente, impedindo a execução do serviço.",
-      "acao": "Cliente foi orientado sobre a necessidade de corrigir a rede elétrica para viabilizar o serviço.",
-      "obs": "✅ Serviço reagendado após correção da rede elétrica."
-    },
-    "110": {
-      "title": "Problema na Tubulação",
-      "fato": "Problema na Tubulação",
-      "causa": "Identificado problema na tubulação, sendo responsabilidade do cliente corrigir para a execução do serviço.",
-      "acao": "Serviço não executado até a resolução do problema pelo cliente.",
-      "obs": "✅ Serviço será reagendado após resolução do problema na tubulação."
-    },
-    "203": {
-      "title": "Rede Externa",
-      "fato": "Problema na Rede Externa",
-      "causa": "Durante a visita técnica, identificou-se que o problema está localizado na rede externa, afetando a qualidade do serviço. Os parâmetros registrados foram: TX: [informar] RX: [informar] CA: [informar] CB: [informar].",
-      "acao": "Encaminhado para manutenção na rede.",
-      "obs": "✓ Manutenção preventiva realizada para evitar falhas futuras."
-    },
-    "510": {
-      "title": "Fonte com Defeito",
-      "fato": "Fonte com Defeito",
-      "causa": "Foi identificada falha na fonte de alimentação do equipamento.",
-      "acao": "Procedeu-se com a substituição da fonte defeituosa.",
-      "obs": "✓ Manutenção preventiva realizada para evitar falhas futuras. Serviço realizado sem danos ao local."
-    },
-    "511": {
-      "title": "Controle Remoto Danificado ou Extraviado",
-      "fato": "Controle Remoto Danificado ou Extraviado",
-      "causa": "O controle remoto estava danificado ou extraviado.",
-      "acao": "Foi efetuada a troca do controle remoto.",
-      "obs": "✅ Ressalta-se que esta substituição está sujeita à cobrança. ✅ Serviço realizado sem danos ao local."
-    },
-    "512": {
-      "title": "Controle Remoto com Defeito",
-      "fato": "Controle Remoto com Defeito",
-      "causa": "O controle remoto apresentou falhas de funcionamento.",
-      "acao": "Realizou-se a substituição do dispositivo e testes de validação.",
-      "obs": "✅ Serviço realizado sem danos ao local."
-    },
-    "513": {
-      "title": "Incompatibilidade entre Tecnologia e Televisor",
-      "fato": "Incompatibilidade entre Tecnologia e Televisor",
-      "causa": "Detectou-se incompatibilidade entre o decoder e o modelo de televisor do cliente, ocasionando falhas de áudio ou vídeo.",
-      "acao": "Cliente orientado quanto às limitações técnicas do equipamento.",
-      "obs": ""
-    },
-    "514": {
-      "title": "Envio de Hit para Habilitação de Canais",
-      "fato": "Envio de Hit para Habilitação de Canais",
-      "causa": "Necessidade de liberação de canais conforme solicitado.",
-      "acao": "Foi enviado sinal de habilitação (\"hit\") para liberação de canais.",
-      "obs": "✅ Operação executada com sucesso. ✅ Serviço realizado sem danos ao local."
+   "510": {
+  "title": "- Fonte com Defeito",
+  "fato": "- Fonte com Defeito",
+  "causa": "- Foi identificada falha na fonte de alimentação do equipamento.",
+  "acao": "- Procedeu-se com a substituição da fonte defeituosa.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"511": {
+  "title": "- Controle Remoto Danificado ou Extraviado",
+  "fato": "- Controle Remoto Danificado ou Extraviado",
+  "causa": "- O controle remoto estava danificado ou extraviado.",
+  "acao": "- Foi efetuada a troca do controle remoto.",
+  "obs": "- ✅ Ressalta-se que esta substituição está sujeita à cobrança. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"512": {
+  "title": "- Controle Remoto com Defeito",
+  "fato": "- Controle Remoto com Defeito",
+  "causa": "- O controle remoto apresentou falhas de funcionamento.",
+  "acao": "- Realizou-se a substituição do dispositivo e testes de validação.",
+  "obs": "- ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"513": {
+  "title": "- Incompatibilidade entre Tecnologia e Televisor",
+  "fato": "- Incompatibilidade entre Tecnologia e Televisor",
+  "causa": "- Detectou-se incompatibilidade entre o decoder e o modelo de televisor do cliente, ocasionando falhas de áudio ou vídeo.",
+  "acao": "- Cliente orientado quanto às limitações técnicas do equipamento.",
+  "obs": "- ",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"514": {
+  "title": "- Envio de Hit para Habilitação de Canais",
+  "fato": "- Envio de Hit para Habilitação de Canais",
+  "causa": "- Necessidade de liberação de canais conforme solicitado.",
+  "acao": "- Foi enviado sinal de habilitação (\"hit\") para liberação de canais.",
+  "obs": "- ✅ Operação executada com sucesso. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
     },
     "515": {
-      "title": "Envio de Hit para Correção de Update ID",
-      "fato": "Envio de Hit para Correção de Update ID",
-      "causa": "Necessidade de correção do Update ID do terminal.",
-      "acao": "Realizou-se o envio de comando (\"hit\") para correção do Update ID.",
-      "obs": "✅ Serviço realizado sem danos ao local."
-    },
-    "516": {
-      "title": "Terminal Travado",
-      "fato": "Terminal Travado",
-      "causa": "O terminal apresentava travamento durante o uso.",
-      "acao": "Efetuou-se a substituição do equipamento e testes de funcionalidade.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "517": {
-      "title": "Terminal Queimado",
-      "fato": "Terminal Queimado",
-      "causa": "Foi identificado que o terminal estava queimado, possivelmente devido a descarga elétrica.",
-      "acao": "Substituição realizada e terminal testado com sucesso.",
-      "obs": "✓ Manutenção preventiva realizada para evitar falhas futuras. Serviço realizado sem danos ao local."
-    },
-    "518": {
-      "title": "Terminal Não Habilita / Não Sincroniza",
-      "fato": "Terminal Não Habilita / Não Sincroniza",
-      "causa": "O terminal não completava o processo de habilitação ou sincronização.",
-      "acao": "Procedeu-se à troca e testes de sincronismo.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
+  "title": "- Envio de Hit para Correção de Update ID",
+  "fato": "- Envio de Hit para Correção de Update ID",
+  "causa": "- Necessidade de correção do Update ID do terminal.",
+  "acao": "- Realizou-se o envio de comando (\"hit\") para correção do Update ID.",
+  "obs": "- ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"516": {
+  "title": "- Terminal Travado",
+  "fato": "- Terminal Travado",
+  "causa": "- O terminal apresentava travamento durante o uso.",
+  "acao": "- Efetuou-se a substituição do equipamento e testes de funcionalidade.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"517": {
+  "title": "- Terminal Queimado",
+  "fato": "- Terminal Queimado",
+  "causa": "- Foi identificado que o terminal estava queimado, possivelmente devido a descarga elétrica.",
+  "acao": "- Substituição realizada e terminal testado com sucesso.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"518": {
+  "title": "- Terminal Não Habilita / Não Sincroniza",
+  "fato": "- Terminal Não Habilita / Não Sincroniza",
+  "causa": "- O terminal não completava o processo de habilitação ou sincronização.",
+  "acao": "- Procedeu-se à troca e testes de sincronismo.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
     },
     "519": {
-      "title": "Terminal Não Grava",
-      "fato": "Terminal Não Grava",
-      "causa": "Constatou-se falha na função de gravação do terminal.",
-      "acao": "Substituição realizada com sucesso e funcionalidade validada.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "520": {
-      "title": "Terminal Não Atualiza Software",
-      "fato": "Terminal Não Atualiza Software",
-      "causa": "O terminal não completava o processo de atualização de software.",
-      "acao": "Foi realizada a troca do equipamento com posterior validação.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "521": {
-      "title": "Terminal com Funcionamento Intermitente",
-      "fato": "Terminal com Funcionamento Intermitente",
-      "causa": "O terminal apresentava intermitência na operação.",
-      "acao": "Substituído por novo dispositivo e submetido a testes.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "522": {
-      "title": "Terminal com Portas IN/OUT Queimadas",
-      "fato": "Terminal com Portas IN/OUT Queimadas",
-      "causa": "Identificou-se falha nas portas de entrada ou saída do terminal.",
-      "acao": "Efetuou-se a substituição do equipamento.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
+  "title": "- Terminal Não Grava",
+  "fato": "- Terminal Não Grava",
+  "causa": "- Constatou-se falha na função de gravação do terminal.",
+  "acao": "- Substituição realizada com sucesso e funcionalidade validada.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"520": {
+  "title": "- Terminal Não Atualiza Software",
+  "fato": "- Terminal Não Atualiza Software",
+  "causa": "- O terminal não completava o processo de atualização de software.",
+  "acao": "- Foi realizada a troca do equipamento com posterior validação.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"521": {
+  "title": "- Terminal com Funcionamento Intermitente",
+  "fato": "- Terminal com Funcionamento Intermitente",
+  "causa": "- O terminal apresentava intermitência na operação.",
+  "acao": "- Substituído por novo dispositivo e submetido a testes.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"522": {
+  "title": "- Terminal com Portas IN/OUT Queimadas",
+  "fato": "- Terminal com Portas IN/OUT Queimadas",
+  "causa": "- Identificou-se falha nas portas de entrada ou saída do terminal.",
+  "acao": "- Efetuou-se a substituição do equipamento.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
     },
     "523": {
-      "title": "Terminal com Alcance Wi-Fi Reduzido",
-      "fato": "Terminal com Alcance Wi-Fi Reduzido",
-      "causa": "O terminal apresentava baixo alcance de sinal Wi-Fi.",
-      "acao": "Realizada a troca por equipamento com melhor desempenho.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "524": {
-      "title": "Troca Solicitada pelo Cliente",
-      "fato": "Troca Solicitada pelo Cliente",
-      "causa": "A substituição do equipamento foi realizada mediante solicitação expressa do cliente, sem constatação de defeito técnico.",
-      "acao": "Realizada a substituição conforme solicitado.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "525": {
-      "title": "Terminal com Falhas na Imagem / Quadriculando",
-      "fato": "Terminal com Falhas na Imagem / Quadriculando",
-      "causa": "Foi constatada falha recorrente na qualidade da imagem, como quadriculamento.",
-      "acao": "Equipamento substituído e testes executados.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "526": {
-      "title": "Falha de Leitura no Smart Card",
-      "fato": "Falha de Leitura no Smart Card",
-      "causa": "O terminal apresentava erro na leitura do Smart Card.",
-      "acao": "Substituição realizada e equipamento restabelecido.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-        },
-  "112": {
-    "title": "Sem Acesso ao DG / Sótão",
-    "fato": "Sem Acesso ao DG / Sótão",
-    "causa": "O técnico não conseguiu acessar o DG (Distribuidor Geral) ou o sótão.",
-    "acao": "Cliente foi informado da necessidade de liberar o acesso para prosseguimento da instalação.",
-    "obs": "✅ Serviço reagendado após liberação de acesso."
+  "title": "- Terminal com Alcance Wi-Fi Reduzido",
+  "fato": "- Terminal com Alcance Wi-Fi Reduzido",
+  "causa": "- O terminal apresentava baixo alcance de sinal Wi-Fi.",
+  "acao": "- Realizada a troca por equipamento com melhor desempenho.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"524": {
+  "title": "- Troca Solicitada pelo Cliente",
+  "fato": "- Troca Solicitada pelo Cliente",
+  "causa": "- A substituição do equipamento foi realizada mediante solicitação expressa do cliente, sem constatação de defeito técnico.",
+  "acao": "- Realizada a substituição conforme solicitado.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"525": {
+  "title": "- Terminal com Falhas na Imagem / Quadriculando",
+  "fato": "- Terminal com Falhas na Imagem / Quadriculando",
+  "causa": "- Foi constatada falha recorrente na qualidade da imagem, como quadriculamento.",
+  "acao": "- Equipamento substituído e testes executados.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"526": {
+  "title": "- Falha de Leitura no Smart Card",
+  "fato": "- Falha de Leitura no Smart Card",
+  "causa": "- O terminal apresentava erro na leitura do Smart Card.",
+  "acao": "- Substituição realizada e equipamento restabelecido.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"112": {
+  "title": "- Sem Acesso ao DG / Sótão",
+  "fato": "- Sem Acesso ao DG / Sótão",
+  "causa": "- O técnico não conseguiu acessar o DG (Distribuidor Geral) ou o sótão.",
+  "acao": "- Cliente foi informado da necessidade de liberar o acesso para prosseguimento da instalação.",
+  "obs": "- ✅ Serviço reagendado após liberação de acesso.",
+  "contato": "- ",
+  "atendido": "nome"
   },
   "113": {
-    "title": "Sem TV / Computador na Residência / Celular",
-    "fato": "Sem TV / Computador na Residência / Celular",
-    "causa": "Cliente não possuía os equipamentos necessários para execução do serviço.",
-    "acao": "Atendimento foi impossibilitado e cliente informado da necessidade.",
-    "obs": "✅ Aguardando disponibilidade de equipamentos pelo cliente."
+  "title": "- Sem TV / Computador na Residência / Celular",
+  "fato": "- Sem TV / Computador na Residência / Celular",
+  "causa": "- Cliente não possuía os equipamentos necessários para execução do serviço.",
+  "acao": "- Atendimento foi impossibilitado e cliente informado da necessidade.",
+  "obs": "- ✅ Aguardando disponibilidade de equipamentos pelo cliente.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"120": {
+  "title": "- Impossibilidade ao Atendimento",
+  "fato": "- Impossibilidade ao Atendimento",
+  "causa": "- Circunstâncias imprevistas impediram a visita técnica.",
+  "acao": "- Atendimento reagendado ou encaminhado para reavaliação.",
+  "obs": "- ✅ Encaminhado para nova avaliação.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"202": {
+  "title": "- Node em Outage",
+  "fato": "- Node em Outage",
+  "causa": "- Falha no Node identificada durante a visita.",
+  "acao": "- Encaminhado para análise e resolução no Data Center.",
+  "obs": "- ✅ Atendimento suspenso até resolução do Node.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"204": {
+  "title": "- Backbone Com Problema",
+  "fato": "- Backbone Com Problema",
+  "causa": "- Falha detectada no Backbone durante a visita.",
+  "acao": "- Execução do serviço condicionada à resolução da falha na infraestrutura.",
+  "obs": "- ✅ Encaminhado para equipe de infraestrutura.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"205": {
+  "title": "- Falta Tap ou Passivo / Tap ou Passivo Lotado",
+  "fato": "- Falta Tap ou Passivo / Tap ou Passivo Lotado",
+  "causa": "- Inexistência ou ocupação total do Tap/Passivo.",
+  "acao": "- Encaminhado para equipe de rede para análise de disponibilidade.",
+  "obs": "- ✅ Atendimento pendente de disponibilidade na rede.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"206": {
+  "title": "- Prédio Sem Backbone",
+  "fato": "- Prédio Sem Backbone",
+  "causa": "- Ausência de infraestrutura Backbone no MDU.",
+  "acao": "- Encaminhado para tratativa de viabilidade técnica.",
+  "obs": "- ✅ Atendimento não realizado por falta de infraestrutura.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"207": {
+  "title": "- Prédio Sem Retorno Ativado",
+  "fato": "- Prédio Sem Retorno Ativado",
+  "causa": "- Retorno do Backbone não ativado.",
+  "acao": "- Encaminhado para ativação do retorno.",
+  "obs": "- ✅ Atendimento pendente de retorno na infraestrutura.",
+  "contato": "- ",
+  "atendido": "nome"
   },
-  "120": {
-    "title": "Impossibilidade ao Atendimento",
-    "fato": "Impossibilidade ao Atendimento",
-    "causa": "Circunstâncias imprevistas impediram a visita técnica.",
-    "acao": "Atendimento reagendado ou encaminhado para reavaliação.",
-    "obs": "✅ Encaminhado para nova avaliação."
+ "208": {
+  "title": "- Problemas no NOW",
+  "fato": "- Problemas no NOW",
+  "causa": "- Falha identificada no serviço de streaming (NOW).",
+  "acao": "- Encaminhado ao NOC para intervenção técnica.",
+  "obs": "- ✅ Atendimento suspenso até correção.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"209": {
+  "title": "- Prédio sem NAP GPON",
+  "fato": "- Prédio sem NAP GPON",
+  "causa": "- Ausência de estrutura para instalação GPON no prédio.",
+  "acao": "- Encaminhado para tratativa de infraestrutura.",
+  "obs": "- ✅ Atendimento impossibilitado por falta de NAP GPON.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"211": {
+  "title": "- Falta NAP/NAP Lotada",
+  "fato": "- Falta NAP/NAP Lotada",
+  "causa": "- Inexistência ou indisponibilidade de porta na NAP.",
+  "acao": "- Solicitação de expansão ou reconfiguração.",
+  "obs": "- ✅ Atendimento suspenso por indisponibilidade de NAP.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"217": {
+  "title": "- Backbone GPON com Problema",
+  "fato": "- Backbone GPON com Problema",
+  "causa": "- Falha na infraestrutura GPON.",
+  "acao": "- Atendimento suspenso até correção na rede.",
+  "obs": "- ✅ Encaminhado para equipe de GPON.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"301": {
+  "title": "- Tipo de OS Incorreta",
+  "fato": "- Tipo de OS Incorreta",
+  "causa": "- Ordem de serviço com tipo incorreto.",
+  "acao": "- OS será ajustada para correta execução do serviço.",
+  "obs": "- ✅ Encaminhado para correção administrativa.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"302": {
+  "title": "- Desistência da Assinatura / Serviço",
+  "fato": "- Desistência da Assinatura / Serviço",
+  "causa": "- Cliente desistiu do pedido.",
+  "acao": "- Cancelamento do atendimento e baixa no backlog.",
+  "obs": "- ✅ Registro encerrado.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"303": {
+  "title": "- Forma de Instalação Não Aceita Pelo Cliente",
+  "fato": "- Forma de Instalação Não Aceita Pelo Cliente",
+  "causa": "- Cliente não aceitou a forma proposta de instalação.",
+  "acao": "- Atendimento não realizado.",
+  "obs": "- ✅ Cliente orientado e atendimento cancelado.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"304": {
+  "title": "- Node Não Liberado (Para Virtua e/ou Net Fone)",
+  "fato": "- Node Não Liberado (Para Virtua e/ou Net Fone)",
+  "causa": "- Node do cliente não liberado para os produtos contratados.",
+  "acao": "- Encaminhado para liberação do Node.",
+  "obs": "- ✅ Atendimento impossibilitado por restrição técnica.",
+  "contato": "- ",
+  "atendido": "nome"
   },
-  "202": {
-    "title": "Node em Outage",
-    "fato": "Node em Outage",
-    "causa": "Falha no Node identificada durante a visita.",
-    "acao": "Encaminhado para análise e resolução no Data Center.",
-    "obs": "✅ Atendimento suspenso até resolução do Node."
-  },
-  "204": {
-    "title": "Backbone Com Problema",
-    "fato": "Backbone Com Problema",
-    "causa": "Falha detectada no Backbone durante a visita.",
-    "acao": "Execução do serviço condicionada à resolução da falha na infraestrutura.",
-    "obs": "✅ Encaminhado para equipe de infraestrutura."
-  },
-  "205": {
-    "title": "Falta Tap ou Passivo / Tap ou Passivo Lotado",
-    "fato": "Falta Tap ou Passivo / Tap ou Passivo Lotado",
-    "causa": "Inexistência ou ocupação total do Tap/Passivo.",
-    "acao": "Encaminhado para equipe de rede para análise de disponibilidade.",
-    "obs": "✅ Atendimento pendente de disponibilidade na rede."
-  },
-  "206": {
-    "title": "Prédio Sem Backbone",
-    "fato": "Prédio Sem Backbone",
-    "causa": "Ausência de infraestrutura Backbone no MDU.",
-    "acao": "Encaminhado para tratativa de viabilidade técnica.",
-    "obs": "✅ Atendimento não realizado por falta de infraestrutura."
-  },
-  "207": {
-    "title": "Prédio Sem Retorno Ativado",
-    "fato": "Prédio Sem Retorno Ativado",
-    "causa": "Retorno do Backbone não ativado.",
-    "acao": "Encaminhado para ativação do retorno.",
-    "obs": "✅ Atendimento pendente de retorno na infraestrutura."
-  },
-  "208": {
-    "title": "Problemas no NOW",
-    "fato": "Problemas no NOW",
-    "causa": "Falha identificada no serviço de streaming (NOW).",
-    "acao": "Encaminhado ao NOC para intervenção técnica.",
-    "obs": "✅ Atendimento suspenso até correção."
-  },
-  "209": {
-    "title": "Prédio sem NAP GPON",
-    "fato": "Prédio sem NAP GPON",
-    "causa": "Ausência de estrutura para instalação GPON no prédio.",
-    "acao": "Encaminhado para tratativa de infraestrutura.",
-    "obs": "✅ Atendimento impossibilitado por falta de NAP GPON."
-  },
-  "211": {
-    "title": "Falta NAP/NAP Lotada",
-    "fato": "Falta NAP/NAP Lotada",
-    "causa": "Inexistência ou indisponibilidade de porta na NAP.",
-    "acao": "Solicitação de expansão ou reconfiguração.",
-    "obs": "✅ Atendimento suspenso por indisponibilidade de NAP."
-  },
-  "217": {
-    "title": "Backbone GPON com Problema",
-    "fato": "Backbone GPON com Problema",
-    "causa": "Falha na infraestrutura GPON.",
-    "acao": "Atendimento suspenso até correção na rede.",
-    "obs": "✅ Encaminhado para equipe de GPON."
-  },
-  "301": {
-    "title": "Tipo de OS Incorreta",
-    "fato": "Tipo de OS Incorreta",
-    "causa": "Ordem de serviço com tipo incorreto.",
-    "acao": "OS será ajustada para correta execução do serviço.",
-    "obs": "✅ Encaminhado para correção administrativa."
-  },
-  "302": {
-    "title": "Desistência da Assinatura / Serviço",
-    "fato": "Desistência da Assinatura / Serviço",
-    "causa": "Cliente desistiu do pedido.",
-    "acao": "Cancelamento do atendimento e baixa no backlog.",
-    "obs": "✅ Registro encerrado."
-  },
-  "303": {
-    "title": "Forma de Instalação Não Aceita Pelo Cliente",
-    "fato": "Forma de Instalação Não Aceita Pelo Cliente",
-    "causa": "Cliente não aceitou a forma proposta de instalação.",
-    "acao": "Atendimento não realizado.",
-    "obs": "✅ Cliente orientado e atendimento cancelado."
-  },
-  "304": {
-    "title": "Node Não Liberado (Para Virtua e/ou Net Fone)",
-    "fato": "Node Não Liberado (Para Virtua e/ou Net Fone)",
-    "causa": "Node do cliente não liberado para os produtos contratados.",
-    "acao": "Encaminhado para liberação do Node.",
-    "obs": "✅ Atendimento impossibilitado por restrição técnica."
-  },
-  "305": {
-    "title": "Rua Não Cabeada",
-    "fato": "Rua Não Cabeada",
-    "causa": "Ausência de cabeamento na rua do cliente.",
-    "acao": "Encaminhado para análise de viabilidade técnica.",
-    "obs": "✅ Atendimento impossibilitado por falta de rede."
-  },
-  "540": {
-    "title": "Conector Interno Oxidado - Troca",
-    "fato": "Conector Interno Oxidado - Troca",
-    "causa": "Identificada oxidação no conector interno.",
-    "acao": "Realizada substituição do conector.",
-    "obs": "✅ Serviço finalizado com sucesso."
-  },
-  "541": {
-    "title": "Conector Interno Mal Feito - Troca",
-    "fato": "Conector Interno Mal Feito - Troca",
-    "causa": "Execução incorreta do conector interno.",
-    "acao": "Realizada a troca do conector.",
-    "obs": "✅ Serviço normalizado."
-  },
-  "542": {
-    "title": "Conector Interno Fora Do Padrão - Troca",
-    "fato": "Conector Interno Fora Do Padrão - Troca",
-    "causa": "Utilização de conector fora do padrão exigido.",
-    "acao": "Substituição por modelo adequado.",
-    "obs": "✅ Serviço finalizado com sucesso."
-  },
-  "543": {
-    "title": "Conector TAP Oxidado - Troca",
-    "fato": "Conector TAP Oxidado - Troca",
-    "causa": "Oxidação detectada no conector TAP.",
-    "acao": "Substituição do conector TAP.",
-    "obs": "✅ Qualidade de sinal restabelecida."
-  },
-  "599": {
-    "title": "Refazer Cabeamento BSOD",
-    "fato": "Refazer Cabeamento BSOD",
-    "causa": "Cabo RG11 superior a 70 metros, fora dos padrões.",
-    "acao": "Substituição programada com equipe especializada.",
-    "obs": "✅ Encaminhado para tratativa com equipe técnica especializada."
+ "305": {
+  "title": "- Rua Não Cabeada",
+  "fato": "- Rua Não Cabeada",
+  "causa": "- Ausência de cabeamento na rua do cliente.",
+  "acao": "- Encaminhado para análise de viabilidade técnica.",
+  "obs": "- ✅ Atendimento impossibilitado por falta de rede.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"540": {
+  "title": "- Conector Interno Oxidado - Troca",
+  "fato": "- Conector Interno Oxidado - Troca",
+  "causa": "- Identificada oxidação no conector interno.",
+  "acao": "- Realizada substituição do conector.",
+  "obs": "- ✅ Serviço finalizado com sucesso.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"541": {
+  "title": "- Conector Interno Mal Feito - Troca",
+  "fato": "- Conector Interno Mal Feito - Troca",
+  "causa": "- Execução incorreta do conector interno.",
+  "acao": "- Realizada a troca do conector.",
+  "obs": "- ✅ Serviço normalizado.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"542": {
+  "title": "- Conector Interno Fora Do Padrão - Troca",
+  "fato": "- Conector Interno Fora Do Padrão - Troca",
+  "causa": "- Utilização de conector fora do padrão exigido.",
+  "acao": "- Substituição por modelo adequado.",
+  "obs": "- ✅ Serviço finalizado com sucesso.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"543": {
+  "title": "- Conector TAP Oxidado - Troca",
+  "fato": "- Conector TAP Oxidado - Troca",
+  "causa": "- Oxidação detectada no conector TAP.",
+  "acao": "- Substituição do conector TAP.",
+  "obs": "- ✅ Qualidade de sinal restabelecida.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"599": {
+  "title": "- Refazer Cabeamento BSOD",
+  "fato": "- Refazer Cabeamento BSOD",
+  "causa": "- Cabo RG11 superior a 70 metros, fora dos padrões.",
+  "acao": "- Substituição programada com equipe especializada.",
+  "obs": "- ✅ Encaminhado para tratativa com equipe técnica especializada.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"527": {
+  "title": "- Terminal Não Navega",
+  "fato": "- Terminal Não Navega",
+  "causa": "- O terminal não conseguia estabelecer conexão de navegação, mesmo após os testes padrão.",
+  "acao": "- Substituição realizada com sucesso.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"528": {
+  "title": "- Terminal com Falha de Áudio",
+  "fato": "- Terminal com Falha de Áudio",
+  "causa": "- Constatou-se falha na saída de áudio do terminal.",
+  "acao": "- Equipamento trocado e validado.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
     },
-    "527": {
-      "title": "Terminal Não Navega",
-      "fato": "Terminal Não Navega",
-      "causa": "O terminal não conseguia estabelecer conexão de navegação, mesmo após os testes padrão.",
-      "acao": "Substituição realizada com sucesso.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "528": {
-      "title": "Terminal com Falha de Áudio",
-      "fato": "Terminal com Falha de Áudio",
-      "causa": "Constatou-se falha na saída de áudio do terminal.",
-      "acao": "Equipamento trocado e validado.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "529": {
-      "title": "Terminal Incompatível com a Tecnologia Atual",
-      "fato": "Terminal Incompatível com a Tecnologia Atual",
-      "causa": "O modelo do terminal não era compatível com a tecnologia instalada no local.",
-      "acao": "Substituição realizada para equipamento adequado.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "530": {
-      "title": "Segunda Troca de Terminal na Mesma Visita",
-      "fato": "Segunda Troca de Terminal na Mesma Visita",
-      "causa": "A primeira substituição do terminal apresentou falha imediata.",
-      "acao": "Nova troca realizada durante a mesma visita técnica.",
-      "obs": "✅ Serviço realizado sem danos ao local."
-    },
-    "531": {
-      "title": "Smart Card Não Habilita",
-      "fato": "Smart Card Não Habilita",
-      "causa": "O cartão inteligente (Smart Card) não completava o processo de habilitação.",
-      "acao": "Substituição efetuada com êxito.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "532": {
-      "title": "Smart Card com Tela Preta",
-      "fato": "Smart Card com Tela Preta",
-      "causa": "O terminal apresentava tela preta devido a falha no Smart Card.",
-      "acao": "Equipamento substituído e sinal restabelecido.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "533": {
-      "title": "Reconfiguração de Terminal Travado",
-      "fato": "Reconfiguração de Terminal Travado",
-      "causa": "Foi realizada a reconfiguração do terminal que apresentava travamento.",
-      "acao": "Restaurado seu funcionamento normal.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "534": {
-      "title": "Reconfiguração - Solicitação de Senha",
-      "fato": "Reconfiguração - Solicitação de Senha",
-      "causa": "O terminal solicitava senha indevida para acesso.",
-      "acao": "Realizada reconfiguração completa do equipamento.",
-      "obs": "✅ Serviço realizado sem danos ao local."
+   "529": {
+  "title": "- Terminal Incompatível com a Tecnologia Atual",
+  "fato": "- Terminal Incompatível com a Tecnologia Atual",
+  "causa": "- O modelo do terminal não era compatível com a tecnologia instalada no local.",
+  "acao": "- Substituição realizada para equipamento adequado.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"530": {
+  "title": "- Segunda Troca de Terminal na Mesma Visita",
+  "fato": "- Segunda Troca de Terminal na Mesma Visita",
+  "causa": "- A primeira substituição do terminal apresentou falha imediata.",
+  "acao": "- Nova troca realizada durante a mesma visita técnica.",
+  "obs": "- ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"531": {
+  "title": "- Smart Card Não Habilita",
+  "fato": "- Smart Card Não Habilita",
+  "causa": "- O cartão inteligente (Smart Card) não completava o processo de habilitação.",
+  "acao": "- Substituição efetuada com êxito.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"532": {
+  "title": "- Smart Card com Tela Preta",
+  "fato": "- Smart Card com Tela Preta",
+  "causa": "- O terminal apresentava tela preta devido a falha no Smart Card.",
+  "acao": "- Equipamento substituído e sinal restabelecido.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"533": {
+  "title": "- Reconfiguração de Terminal Travado",
+  "fato": "- Reconfiguração de Terminal Travado",
+  "causa": "- Foi realizada a reconfiguração do terminal que apresentava travamento.",
+  "acao": "- Restaurado seu funcionamento normal.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"534": {
+  "title": "- Reconfiguração - Solicitação de Senha",
+  "fato": "- Reconfiguração - Solicitação de Senha",
+  "causa": "- O terminal solicitava senha indevida para acesso.",
+  "acao": "- Realizada reconfiguração completa do equipamento.",
+  "obs": "- ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
     },
     "535": {
-      "title": "Reconfiguração - Falha de Atualização",
-      "fato": "Reconfiguração - Falha de Atualização",
-      "causa": "Efetuada reconfiguração do terminal que não completava o processo de atualização.",
-      "acao": "Funcionamento normalizado.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "536": {
-      "title": "Reconfiguração de Roteador do Cliente",
-      "fato": "Reconfiguração de Roteador do Cliente",
-      "causa": "Foi realizada a configuração da rede de dados no roteador de propriedade do cliente.",
-      "acao": "Assegurando conectividade.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "537": {
-      "title": "Reconfiguração de eMTA/Roteador NET-WIFI",
-      "fato": "Reconfiguração de eMTA/Roteador NET-WIFI",
-      "causa": "Ajustes realizados no roteador NET ou eMTA com rede Wi-Fi.",
-      "acao": "Restabelecendo a funcionalidade.",
-      "obs": "✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local."
-    },
-    "538": {
-      "title": "Reconfiguração do Formato da Imagem",
-      "fato": "Reconfiguração do Formato da Imagem",
-      "causa": "Foi ajustado o formato da imagem (ex: 16:9 ou 4:3) no equipamento do cliente.",
-      "acao": "Melhorando a experiência de visualização.",
-      "obs": "✅ Serviço realizado sem danos ao local."
-    },
-    "539": {
-      "title": "Reconfiguração de Áudio",
-      "fato": "Reconfiguração de Áudio",
-      "causa": "Ajustes técnicos realizados no formato de áudio do terminal.",
-      "acao": "Otimizando a reprodução.",
-      "obs": "✅ Serviço realizado sem danos ao local."
-    },
-    "555": {
-      "title": "Sem Defeito no Equipamento de Internet",
-      "fato": "Sem Defeito no Equipamento",
-      "causa": "Realizamos uma verificação completa do equipamento de internet do cliente, e não foi identificado nenhum defeito ou falha no sistema.",
-      "acao": "Verificação confirmou que o sinal está dentro dos parâmetros técnicos recomendados.",
-      "obs": "✓ O serviço foi considerado como funcionando normalmente."
+  "title": "- Reconfiguração - Falha de Atualização",
+  "fato": "- Reconfiguração - Falha de Atualização",
+  "causa": "- Efetuada reconfiguração do terminal que não completava o processo de atualização.",
+  "acao": "- Funcionamento normalizado.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"536": {
+  "title": "- Reconfiguração de Roteador do Cliente",
+  "fato": "- Reconfiguração de Roteador do Cliente",
+  "causa": "- Foi realizada a configuração da rede de dados no roteador de propriedade do cliente.",
+  "acao": "- Assegurando conectividade.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"537": {
+  "title": "- Reconfiguração de eMTA/Roteador NET-WIFI",
+  "fato": "- Reconfiguração de eMTA/Roteador NET-WIFI",
+  "causa": "- Ajustes realizados no roteador NET ou eMTA com rede Wi-Fi.",
+  "acao": "- Restabelecendo a funcionalidade.",
+  "obs": "- ✅ Manutenção preventiva realizada para evitar falhas futuras. ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"538": {
+  "title": "- Reconfiguração do Formato da Imagem",
+  "fato": "- Reconfiguração do Formato da Imagem",
+  "causa": "- Foi ajustado o formato da imagem (ex: 16:9 ou 4:3) no equipamento do cliente.",
+  "acao": "- Melhorando a experiência de visualização.",
+  "obs": "- ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"539": {
+  "title": "- Reconfiguração de Áudio",
+  "fato": "- Reconfiguração de Áudio",
+  "causa": "- Ajustes técnicos realizados no formato de áudio do terminal.",
+  "acao": "- Otimizando a reprodução.",
+  "obs": "- ✅ Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"555": {
+  "title": "- Sem Defeito no Equipamento de Internet",
+  "fato": "- Sem Defeito no Equipamento",
+  "causa": "- Realizamos uma verificação completa do equipamento de internet do cliente, e não foi identificado nenhum defeito ou falha no sistema.",
+  "acao": "- Verificação confirmou que o sinal está dentro dos parâmetros técnicos recomendados.",
+  "obs": "- ✅ O serviço foi considerado como funcionando normalmente.",
+  "contato": "- ",
+  "atendido": "nome"
     },
     "556": {
-      "title": "Sem Defeito no Decoder",
-      "fato": "Sem Defeito no Decoder",
-      "causa": "Após testes técnicos, o decoder encontra-se em perfeitas condições de funcionamento.",
-      "acao": "Verificação completa realizada e todos os testes foram positivos.",
-      "obs": "✓ Não foi necessária substituição do equipamento."
+  "title": "- Sem Defeito no Decoder",
+  "fato": "- Sem Defeito no Decoder",
+  "causa": "- Após testes técnicos, o decoder encontra-se em perfeitas condições de funcionamento.",
+  "acao": "- Verificação completa realizada e todos os testes foram positivos.",
+  "obs": "- ✅ Não foi necessária substituição do equipamento.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"560": {
+  "title": "- Defeito em Equipamento Particular do Cliente",
+  "fato": "- Defeito em Equipamento Particular",
+  "causa": "- O defeito foi localizado em equipamento de propriedade do cliente, não pertencente ao sistema da operadora.",
+  "acao": "- Cliente foi devidamente orientado sobre o problema.",
+  "obs": "- ⚠️ Visita sujeita à cobrança.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"566": {
+  "title": "- Reparo no Drop",
+  "fato": "- Cabo Drop Danificado",
+  "causa": "- O cabo drop encontrava-se danificado (cortado ou rompido).",
+  "acao": "- Foi efetuada a substituição do cabo, conectores e anel de vedação.",
+  "obs": "- ✅ Manutenção preventiva interna realizada para evitar falhas futuras. Serviço realizado sem danos ao local.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"591": {
+  "title": "- Patch Cord com Defeito - Troca",
+  "fato": "- Patch Cord com Defeito - Troca",
+  "causa": "- Patch cord defeituoso, afetando o desempenho do serviço.",
+  "acao": "- Substituição do patch cord, restabelecendo a qualidade do sinal.",
+  "obs": "- ✅ Serviço finalizado com sucesso.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"594": {
+  "title": "- Reconfiguração da Senha Wi-Fi",
+  "fato": "- Reconfiguração de Rede Wi-Fi",
+  "causa": "- Cliente solicitou mudança nas configurações da rede sem fio.",
+  "acao": "- Reconfiguração do nome da rede (SSID) e/ou senha do Wi-Fi.",
+  "obs": "- ⚠️ Cliente orientado sobre o procedimento e informado quanto à possibilidade de cobrança pela visita.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"500": {
+  "title": "- Readequação de Sinal - Passivos",
+  "fato": "- Readequação de Sinal - Passivos",
+  "causa": "- Foi identificado que o passivo coaxial utilizado estava com valor incorreto, comprometendo a qualidade do sinal.",
+  "acao": "- Foi realizada a substituição do passivo para um de valor adequado, equalizando o sinal.",
+  "obs": "- ✅ Serviço finalizado com sucesso.",
+  "contato": "- ",
+  "atendido": "nome"
     },
-    "560": {
-      "title": "Defeito em Equipamento Particular do Cliente",
-      "fato": "Defeito em Equipamento Particular",
-      "causa": "O defeito foi localizado em equipamento de propriedade do cliente, não pertencente ao sistema da operadora.",
-      "acao": "Cliente foi devidamente orientado sobre o problema.",
-      "obs": "⚠️ Visita sujeita à cobrança."
-    },
-    "566": {
-      "title": "Reparo no Drop",
-      "fato": "Cabo Drop Danificado",
-      "causa": "O cabo drop encontrava-se danificado (cortado ou rompido).",
-      "acao": "Foi efetuada a substituição do cabo, conectores e anel de vedação.",
-      "obs": "✓ Manutenção preventiva interna realizada para evitar falhas futuras. Serviço realizado sem danos ao local."
-    },
-    "591": {
-      "title": "Patch Cord com Defeito - Troca",
-      "fato": "Patch Cord com Defeito - Troca",
-      "causa": "Patch cord defeituoso, afetando o desempenho do serviço.",
-      "acao": "Substituição do patch cord, restabelecendo a qualidade do sinal.",
-      "obs": "✅ Serviço finalizado com sucesso."
-    },
-    "594": {
-      "title": "Reconfiguração da Senha Wi-Fi",
-      "fato": "Reconfiguração de Rede Wi-Fi",
-      "causa": "Cliente solicitou mudança nas configurações da rede sem fio.",
-      "acao": "Reconfiguração do nome da rede (SSID) e/ou senha do Wi-Fi.",
-      "obs": "⚠️ Cliente orientado sobre o procedimento e informado quanto à possibilidade de cobrança pela visita."
-      },
-      "500": {
-      "title": "Readequação de Sinal - Passivos",
-      "fato": "Readequação de Sinal - Passivos",
-      "causa": "Foi identificado que o passivo coaxial utilizado estava com valor incorreto, comprometendo a qualidade do sinal.",
-      "acao": "Foi realizada a substituição do passivo para um de valor adequado, equalizando o sinal.",
-      "obs": "✅ Serviço finalizado com sucesso."
-    },
-    "501": {
-      "title": "Amplificador Equalizado",
-      "fato": "Amplificador Equalizado",
-      "causa": "O sinal encontrava-se fora dos padrões devido à má equalização do amplificador.",
-      "acao": "Foi efetuada a equalização correta do amplificador, normalizando o sinal.",
-      "obs": "✅ Serviço finalizado com sucesso."
-    },
-    "502": {
-      "title": "Amplificador com Defeito - Troca",
-      "fato": "Amplificador com Defeito - Troca",
-      "causa": "O amplificador apresentava defeito de funcionamento, comprometendo o sinal.",
-      "acao": "Realizou-se a substituição do equipamento defeituoso, restabelecendo o serviço.",
-      "obs": "✅ Serviço finalizado com sucesso."
-    },
-    "503": {
-      "title": "Amplificador Queimado - Troca",
-      "fato": "Amplificador Queimado - Troca",
-      "causa": "Foi identificado que o amplificador estava queimado, impossibilitando seu funcionamento.",
-      "acao": "Substituição do equipamento realizada com sucesso.",
-      "obs": "✅ Serviço finalizado com sucesso."
-    },
-    "504": {
-      "title": "Instalação de Amplificador",
-      "fato": "Instalação de Amplificador",
-      "causa": "Foi necessária a instalação de amplificador para estabilizar o sinal da rede.",
-      "acao": "Foi realizada a instalação de novo amplificador.",
-      "obs": "✅ Serviço finalizado com sucesso."
-    },
-    "505": {
-      "title": "Passivo Interno Queimado/Degradado - Troca",
-      "fato": "Passivo Interno Queimado/Degradado - Troca",
-      "causa": "Foi constatado que o passivo coaxial interno estava queimado ou degradado.",
-      "acao": "Foi realizada a troca do componente comprometido.",
-      "obs": "✅ Serviço finalizado com sucesso."
+   "501": {
+  "title": "- Amplificador Equalizado",
+  "fato": "- Amplificador Equalizado",
+  "causa": "- O sinal encontrava-se fora dos padrões devido à má equalização do amplificador.",
+  "acao": "- Foi efetuada a equalização correta do amplificador, normalizando o sinal.",
+  "obs": "- ✅ Serviço finalizado com sucesso.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"502": {
+  "title": "- Amplificador com Defeito - Troca",
+  "fato": "- Amplificador com Defeito - Troca",
+  "causa": "- O amplificador apresentava defeito de funcionamento, comprometendo o sinal.",
+  "acao": "- Realizou-se a substituição do equipamento defeituoso, restabelecendo o serviço.",
+  "obs": "- ✅ Serviço finalizado com sucesso.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"503": {
+  "title": "- Amplificador Queimado - Troca",
+  "fato": "- Amplificador Queimado - Troca",
+  "causa": "- Foi identificado que o amplificador estava queimado, impossibilitando seu funcionamento.",
+  "acao": "- Substituição do equipamento realizada com sucesso.",
+  "obs": "- ✅ Serviço finalizado com sucesso.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"504": {
+  "title": "- Instalação de Amplificador",
+  "fato": "- Instalação de Amplificador",
+  "causa": "- Foi necessária a instalação de amplificador para estabilizar o sinal da rede.",
+  "acao": "- Foi realizada a instalação de novo amplificador.",
+  "obs": "- ✅ Serviço finalizado com sucesso.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"505": {
+  "title": "- Passivo Interno Queimado/Degradado - Troca",
+  "fato": "- Passivo Interno Queimado/Degradado - Troca",
+  "causa": "- Foi constatado que o passivo coaxial interno estava queimado ou degradado.",
+  "acao": "- Foi realizada a troca do componente comprometido.",
+  "obs": "- ✅ Serviço finalizado com sucesso.",
+  "contato": "- ",
+  "atendido": "nome"
     },
     "506": {
-      "title": "Passivo Interno Fora do Padrão - Troca",
-      "fato": "Passivo Interno Fora do Padrão - Troca",
-      "causa": "Identificou-se a utilização de passivo coaxial interno fora dos padrões homologados.",
-      "acao": "Efetuou-se a substituição por componentes adequados.",
-      "obs": "✅ Serviço finalizado com sucesso."
+  "title": "- Passivo Interno Fora do Padrão - Troca",
+  "fato": "- Passivo Interno Fora do Padrão - Troca",
+  "causa": "- Identificou-se a utilização de passivo coaxial interno fora dos padrões homologados.",
+  "acao": "- Efetuou-se a substituição por componentes adequados.",
+  "obs": "- ✅ Serviço finalizado com sucesso.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"507": {
+  "title": "- Passivo MDU Queimado/Degradado - Troca",
+  "fato": "- Passivo MDU Queimado/Degradado - Troca",
+  "causa": "- Foi identificado que o passivo no MDU ou na prumada estava queimado ou degradado.",
+  "acao": "- Realizou-se a troca do componente comprometido.",
+  "obs": "- ✅ Serviço finalizado com sucesso.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"508": {
+  "title": "- Passivo MDU Fora do Padrão - Troca",
+  "fato": "- Passivo MDU Fora do Padrão - Troca",
+  "causa": "- Detectou-se a presença de passivo fora do padrão técnico no MDU ou prumada.",
+  "acao": "- O componente foi substituído por modelo homologado.",
+  "obs": "- ✅ Serviço finalizado com sucesso.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"509": {
+  "title": "- Cable Isolator Danificado/Queimado - Troca",
+  "fato": "- Cable Isolator Danificado/Queimado - Troca",
+  "causa": "- Foi constatado que o Cable Isolator encontrava-se danificado ou queimado.",
+  "acao": "- Foi efetuada a substituição do componente, normalizando o serviço.",
+  "obs": "- ✅ Serviço finalizado com sucesso.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"125": {
+  "title": "- Cliente desiste da Agenda",
+  "fato": "- Cliente desiste da Agenda",
+  "causa": "- Durante a visita técnica, o cliente solicitou novo agendamento em razão de [motivo].",
+  "acao": "- Agendamento reagendado para: [data/hora].",
+  "obs": "- ✅ Novo agendamento registrado.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"306": {
+  "title": "- Não Reside no Endereço",
+  "fato": "- Não Reside no Endereço",
+  "causa": "- Durante a visita técnica, constatou-se que o cliente não reside no endereço informado.",
+  "acao": "- Reagendado para nova visita no local correto.",
+  "obs": "- ✅ Endereço corrigido em sistema.",
+  "contato": "- ",
+  "atendido": "nome"
+  },
+ "307": {
+  "title": "- Residência em Construção / Reforma",
+  "fato": "- Residência em Construção / Reforma",
+  "causa": "- Durante a visita técnica, identificou-se que a residência está em construção ou reforma, inviabilizando o serviço.",
+  "acao": "- Reagendado após conclusão da obra.",
+  "obs": "- ✅ Visita reagendada.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"308": {
+  "title": "- Instalação Não Contemplará Padrão",
+  "fato": "- Instalação Não Contemplará Padrão",
+  "causa": "- Durante a visita técnica, verificou-se que a instalação exigida violaria os padrões técnicos de segurança da Claro.",
+  "acao": "- Encaminhado para equipe de projeto avaliar solução.",
+  "obs": "- ✅ Solução em análise.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"309": {
+  "title": "- Computador não possui configuração Mínima",
+  "fato": "- Computador não possui configuração Mínima",
+  "causa": "- Durante a visita técnica, o equipamento do cliente não atende aos requisitos mínimos (placa de rede, Wi-Fi, etc.).",
+  "acao": "- Orientado o cliente e reagendado após adequação.",
+  "obs": "- ✅ Condições mínimas aguardadas.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"312": {
+  "title": "- Cliente não solicitou serviço",
+  "fato": "- Cliente não solicitou serviço",
+  "causa": "- Durante a visita técnica, o cliente afirmou não ter solicitado o serviço.",
+  "acao": "- OS cancelada e COP notificado.",
+  "obs": "- ✅ Serviço não solicitado.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"316": {
+  "title": "- Rua não cabeada GPON",
+  "fato": "- Rua não cabeada GPON",
+  "causa": "- Durante a visita técnica, identificou-se ausência de cabeamento de fibra GPON na rua.",
+  "acao": "- Solicitação de implantação de rede registrada.",
+  "obs": "- ✅ Demanda de infraestrutura criada.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"400": {
+  "title": "- Correção de Cadastro",
+  "fato": "- Correção de Cadastro",
+  "causa": "- Durante o atendimento, detectou-se inconsistências cadastrais que impedem a conclusão do serviço.",
+  "acao": "- OS de cadastro aberta.",
+  "obs": "- ✅ Dados encaminhados para atualização.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"402": {
+  "title": "- Divergência de Dados Cadastrais",
+  "fato": "- Divergência de Dados Cadastrais",
+  "causa": "- Durante a visita técnica, constatou-se divergência entre dados informados e sistema.",
+  "acao": "- COP notificado para correção.",
+  "obs": "- ✅ Aguardando ajuste cadastral.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"404": {
+  "title": "- Cliente Recusa-se Devolver o Decoder / Cable Modem",
+  "fato": "- Cliente Recusa-se Devolver o Decoder / Cable Modem",
+  "causa": "- Durante a visita de desconexão, o cliente recusou devolver o equipamento.",
+  "acao": "- Agendada nova coleta ou instruídas instruções de devolução.",
+  "obs": "- ✅ Coleta pendente.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"408": {
+  "title": "- Equipamento do Cliente com Defeito",
+  "fato": "- Equipamento do Cliente com Defeito",
+  "causa": "- Durante a visita técnica, identificou-se defeito no equipamento de propriedade do cliente.",
+  "acao": "- Cliente orientado a providenciar reparo ou substituição.",
+  "obs": "- ✅ Aguardando reparo do cliente.",
+  "contato": "- ",
+  "atendido": "nome"
+  },
+ "409": {
+  "title": "- Instalação Efetuada",
+  "fato": "- Instalação Efetuada",
+  "causa": "- Durante a visita técnica, a instalação do extensor MESH via Wi-Fi foi concluída com sucesso.",
+  "acao": "- Serviço concluído normalmente.",
+  "obs": "- ✅ Extensor operacional.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"428": {
+  "title": "- Desconexão Efetuada com Retirada de Equipamento",
+  "fato": "- Desconexão Efetuada com Retirada de Equipamento",
+  "causa": "- Durante a visita técnica, efetuou-se a desconexão do serviço e retirada dos equipamentos.",
+  "acao": "- Ativos devolvidos ao estoque.",
+  "obs": "- ✅ Equipamentos registrados.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"429": {
+  "title": "- Desconexão Efetuada sem Retirada de Equipamento",
+  "fato": "- Desconexão Efetuada sem Retirada de Equipamento",
+  "causa": "- Durante a visita técnica, efetuou-se a desconexão do serviço, mas o cliente permaneceu com os equipamentos.",
+  "acao": "- Cliente instruído a devolver equipamento.",
+  "obs": "- ✅ Aguardando devolução.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"430": {
+  "title": "- Equipamento Retirado",
+  "fato": "- Equipamento Retirado",
+  "causa": "- Durante a visita técnica, foram retirados os equipamentos instalados na residência.",
+  "acao": "- Ativos devolvidos ao estoque.",
+  "obs": "- ✅ Retirada concluída.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"466": {
+  "title": "- Orçamento Retirado",
+  "fato": "- Orçamento Retirado",
+  "causa": "- Durante a vistoria, elaborou-se orçamento para reparo/troca de componentes.",
+  "acao": "- Orçamento enviado para aprovação.",
+  "obs": "- ✅ Aguardando retorno do cliente.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"468": {
+  "title": "- Caso Procedente Resolvido Durante a Vistoria",
+  "fato": "- Caso Procedente Resolvido Durante a Vistoria",
+  "causa": "- Durante a vistoria, o problema foi confirmado e solucionado imediatamente.",
+  "acao": "- Serviço normalizado.",
+  "obs": "- ✅ Verificação positiva.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"469": {
+  "title": "- Caso Indefinido",
+  "fato": "- Caso Indefinido",
+  "causa": "- Durante a vistoria, constatou-se a ocorrência, mas não foi possível resolver no momento.",
+  "acao": "- Orçamento/laudo solicitado.",
+  "obs": "- ✅ Aguardando laudo.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"470": {
+  "title": "- Caso Improcedente",
+  "fato": "- Caso Improcedente",
+  "causa": "- Durante a vistoria, após análise, não se constatou falha procedente.",
+  "acao": "- OS encerrada.",
+  "obs": "- ✅ Visita finalizada.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"471": {
+  "title": "- Reconfiguração do SSID / Senha Wi-Fi",
+  "fato": "- Reconfiguração do SSID / Senha Wi-Fi",
+  "causa": "- Durante a visita técnica, foi realizada a reconfiguração de SSID e senha do extensor MESH.",
+  "acao": "- Teste de conectividade realizado.",
+  "obs": "- ✅ SSID atualizado.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"472": {
+  "title": "- Instruções de Uso do Equipamento – Extensor",
+  "fato": "- Instruções de Uso do Equipamento – Extensor",
+  "causa": "- Durante a visita técnica, foram fornecidas instruções de uso e melhores práticas para o extensor MESH.",
+  "acao": "- Cliente orientado.",
+  "obs": "- ✅ Instruções concluidas.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"473": {
+  "title": "- Necessidade de Instalação via Cabo Ethernet",
+  "fato": "- Necessidade de Instalação via Cabo Ethernet",
+  "causa": "- Durante a visita técnica, constatou-se que o extensor exige conexão cabeada para estabilidade.",
+  "acao": "- Instalação cabeada realizada.",
+  "obs": "- ✅ Cabo instalado.",
+  "contato": "- ",
+  "atendido": "nome"
+  },
+ "474": {
+  "title": "- Reposicionado o Extensor",
+  "fato": "- Reposicionado o Extensor",
+  "causa": "- Durante a visita técnica, reposicionou-se o extensor para otimizar cobertura.",
+  "acao": "- Posição ajustada e testada.",
+  "obs": "- ✅ Sinal validado.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"475": {
+  "title": "- Velocidade do Extensor Conforme Contratada",
+  "fato": "- Velocidade do Extensor Conforme Contratada",
+  "causa": "- Durante os testes, o extensor apresentou a velocidade contratada pelo cliente.",
+  "acao": "- Visita concluída.",
+  "obs": "- ✅ Velocidade confirmada.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"476": {
+  "title": "- Reconfigurado / Pareamento de Extensores",
+  "fato": "- Reconfigurado / Pareamento de Extensores",
+  "causa": "- Durante a visita técnica, foi realizado o pareamento e reconfiguração dos extensores MESH.",
+  "acao": "- Rede integrada validada.",
+  "obs": "- ✅ Pareamento bem-sucedido.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"477": {
+  "title": "- Instalação Mesh Cabeada",
+  "fato": "- Instalação Mesh Cabeada",
+  "causa": "- Durante a visita técnica, a instalação do extensor MESH via cabo Ethernet foi concluída.",
+  "acao": "- Desempenho validado.",
+  "obs": "- ✅ Instalação estável.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"499": {
+  "title": "- Desconexão por Risco de Subscrição",
+  "fato": "- Desconexão por Risco de Subscrição",
+  "causa": "- Durante a visita técnica, o serviço foi desconectado por risco de subscrição identificado.",
+  "acao": "- OS atualizada como desconectada por risco.",
+  "obs": "- ✅ Registro de risco concluído.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"559": {
+  "title": "- Sem Defeito no Produto Virtua Reclamado",
+  "fato": "- Sem Defeito no Produto Virtua Reclamado",
+  "causa": "- Durante a visita técnica, após testes, não foi identificado defeito no serviço Virtua reclamado.",
+  "acao": "- OS encerrada como sem defeito.",
+  "obs": "- ✅ Serviço operante.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"561": {
+  "title": "- Ponto Sem Cadastro Não Regularizado",
+  "fato": "- Ponto Sem Cadastro Não Regularizado",
+  "causa": "- Durante a visita técnica, constatou-se ponto(s) sem cadastro e o cliente optou por não regularizar.",
+  "acao": "- OS suspensa até regularização.",
+  "obs": "- ✅ Aguardando cadastro.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"579": {
+  "title": "- Limpeza de Ruído Executada",
+  "fato": "- Limpeza de Ruído Executada",
+  "causa": "- Durante a visita técnica, foi executada limpeza de ruído na rede do cliente.",
+  "acao": "- Qualidade de sinal testada.",
+  "obs": "- ✅ Sinal otimizado.",
+  "contato": "- ",
+  "atendido": "nome"
+},
+"597": {
+  "title": "- Troca de Pilha",
+  "fato": "- Troca de Pilha",
+  "causa": "- Durante a visita técnica, foram substituídas as pilhas do controle remoto conforme solicitação.",
+  "acao": "- Funcionamento testado.",
+  "obs": "- ✅ Pilhas novas instaladas.",
+  "contato": "- ",
+  "atendido": "nome"
     },
-    "507": {
-      "title": "Passivo MDU Queimado/Degradado - Troca",
-      "fato": "Passivo MDU Queimado/Degradado - Troca",
-      "causa": "Foi identificado que o passivo no MDU ou na prumada estava queimado ou degradado.",
-      "acao": "Realizou-se a troca do componente comprometido.",
-      "obs": "✅ Serviço finalizado com sucesso."
-    },
-    "508": {
-      "title": "Passivo MDU Fora do Padrão - Troca",
-      "fato": "Passivo MDU Fora do Padrão - Troca",
-      "causa": "Detectou-se a presença de passivo fora do padrão técnico no MDU ou prumada.",
-      "acao": "O componente foi substituído por modelo homologado.",
-      "obs": "✅ Serviço finalizado com sucesso."
-    },
-    "509": {
-      "title": "Cable Isolator Danificado/Queimado - Troca",
-      "fato": "Cable Isolator Danificado/Queimado - Troca",
-      "causa": "Foi constatado que o Cable Isolator encontrava-se danificado ou queimado.",
-      "acao": "Foi efetuada a substituição do componente, normalizando o serviço.",
-      "obs": "✅ Serviço finalizado com sucesso."
-      },
-  "125": {
-    "title": "Cliente desiste da Agenda",
-    "fato": "Cliente desiste da Agenda",
-    "causa": "Durante a visita técnica, o cliente solicitou novo agendamento em razão de [motivo].",
-    "acao": "Agendamento reagendado para: [data/hora].",
-    "obs": "✅ Novo agendamento registrado."
-  },
-  "306": {
-    "title": "Não Reside no Endereço",
-    "fato": "Não Reside no Endereço",
-    "causa": "Durante a visita técnica, constatou-se que o cliente não reside no endereço informado.",
-    "acao": "Reagendado para nova visita no local correto.",
-    "obs": "✅ Endereço corrigido em sistema."
-  },
-  "307": {
-    "title": "Residência em Construção / Reforma",
-    "fato": "Residência em Construção / Reforma",
-    "causa": "Durante a visita técnica, identificou-se que a residência está em construção ou reforma, inviabilizando o serviço.",
-    "acao": "Reagendado após conclusão da obra.",
-    "obs": "✅ Visita reagendada."
-  },
-  "308": {
-    "title": "Instalação Não Contemplará Padrão",
-    "fato": "Instalação Não Contemplará Padrão",
-    "causa": "Durante a visita técnica, verificou-se que a instalação exigida violaria os padrões técnicos de segurança da Claro.",
-    "acao": "Encaminhado para equipe de projeto avaliar solução.",
-    "obs": "✅ Solução em análise."
-  },
-  "309": {
-    "title": "Computador não possui configuração Mínima",
-    "fato": "Computador não possui configuração Mínima",
-    "causa": "Durante a visita técnica, o equipamento do cliente não atende aos requisitos mínimos (placa de rede, Wi-Fi, etc.).",
-    "acao": "Orientado o cliente e reagendado após adequação.",
-    "obs": "✅ Condições mínimas aguardadas."
-  },
-  "312": {
-    "title": "Cliente não solicitou serviço",
-    "fato": "Cliente não solicitou serviço",
-    "causa": "Durante a visita técnica, o cliente afirmou não ter solicitado o serviço.",
-    "acao": "OS cancelada e COP notificado.",
-    "obs": "✅ Serviço não solicitado."
-  },
-  "316": {
-    "title": "Rua não cabeada GPON",
-    "fato": "Rua não cabeada GPON",
-    "causa": "Durante a visita técnica, identificou-se ausência de cabeamento de fibra GPON na rua.",
-    "acao": "Solicitação de implantação de rede registrada.",
-    "obs": "✅ Demanda de infraestrutura criada."
-  },
-  "400": {
-    "title": "Correção de Cadastro",
-    "fato": "Correção de Cadastro",
-    "causa": "Durante o atendimento, detectou-se inconsistências cadastrais que impedem a conclusão do serviço.",
-    "acao": "OS de cadastro aberta.",
-    "obs": "✅ Dados encaminhados para atualização."
-  },
-  "402": {
-    "title": "Divergência de Dados Cadastrais",
-    "fato": "Divergência de Dados Cadastrais",
-    "causa": "Durante a visita técnica, constatou-se divergência entre dados informados e sistema.",
-    "acao": "COP notificado para correção.",
-    "obs": "✅ Aguardando ajuste cadastral."
-  },
-  "404": {
-    "title": "Cliente Recusa-se Devolver o Decoder / Cable Modem",
-    "fato": "Cliente Recusa-se Devolver o Decoder / Cable Modem",
-    "causa": "Durante a visita de desconexão, o cliente recusou devolver o equipamento.",
-    "acao": "Agendada nova coleta ou instruídas instruções de devolução.",
-    "obs": "✅ Coleta pendente."
-  },
-  "408": {
-    "title": "Equipamento do Cliente com Defeito",
-    "fato": "Equipamento do Cliente com Defeito",
-    "causa": "Durante a visita técnica, identificou-se defeito no equipamento de propriedade do cliente.",
-    "acao": "Cliente orientado a providenciar reparo ou substituição.",
-    "obs": "✅ Aguardando reparo do cliente."
-  },
-  "409": {
-    "title": "Instalação Efetuada",
-    "fato": "Instalação Efetuada",
-    "causa": "Durante a visita técnica, a instalação do extensor MESH via Wi-Fi foi concluída com sucesso.",
-    "acao": "Serviço concluído normalmente.",
-    "obs": "✅ Extensor operacional."
-  },
-  "428": {
-    "title": "Desconexão Efetuada com Retirada de Equipamento",
-    "fato": "Desconexão Efetuada com Retirada de Equipamento",
-    "causa": "Durante a visita técnica, efetuou-se a desconexão do serviço e retirada dos equipamentos.",
-    "acao": "Ativos devolvidos ao estoque.",
-    "obs": "✅ Equipamentos registrados."
-  },
-  "429": {
-    "title": "Desconexão Efetuada sem Retirada de Equipamento",
-    "fato": "Desconexão Efetuada sem Retirada de Equipamento",
-    "causa": "Durante a visita técnica, efetuou-se a desconexão do serviço, mas o cliente permaneceu com os equipamentos.",
-    "acao": "Cliente instruído a devolver equipamento.",
-    "obs": "✅ Aguardando devolução."
-  },
-  "430": {
-    "title": "Equipamento Retirado",
-    "fato": "Equipamento Retirado",
-    "causa": "Durante a visita técnica, foram retirados os equipamentos instalados na residência.",
-    "acao": "Ativos devolvidos ao estoque.",
-    "obs": "✅ Retirada concluída."
-  },
-  "466": {
-    "title": "Orçamento Retirado",
-    "fato": "Orçamento Retirado",
-    "causa": "Durante a vistoria, elaborou-se orçamento para reparo/troca de componentes.",
-    "acao": "Orçamento enviado para aprovação.",
-    "obs": "✅ Aguardando retorno do cliente."
-  },
-  "468": {
-    "title": "Caso Procedente Resolvido Durante a Vistoria",
-    "fato": "Caso Procedente Resolvido Durante a Vistoria",
-    "causa": "Durante a vistoria, o problema foi confirmado e solucionado imediatamente.",
-    "acao": "Serviço normalizado.",
-    "obs": "✅ Verificação positiva."
-  },
-  "469": {
-    "title": "Caso Indefinido",
-    "fato": "Caso Indefinido",
-    "causa": "Durante a vistoria, constatou-se a ocorrência, mas não foi possível resolver no momento.",
-    "acao": "Orçamento/laudo solicitado.",
-    "obs": "✅ Aguardando laudo."
-  },
-  "470": {
-    "title": "Caso Improcedente",
-    "fato": "Caso Improcedente",
-    "causa": "Durante a vistoria, após análise, não se constatou falha procedente.",
-    "acao": "OS encerrada.",
-    "obs": "✅ Visita finalizada."
-  },
-  "471": {
-    "title": "Reconfiguração do SSID / Senha Wi-Fi",
-    "fato": "Reconfiguração do SSID / Senha Wi-Fi",
-    "causa": "Durante a visita técnica, foi realizada a reconfiguração de SSID e senha do extensor MESH.",
-    "acao": "Teste de conectividade realizado.",
-    "obs": "✅ SSID atualizado."
-  },
-  "472": {
-    "title": "Instruções de Uso do Equipamento – Extensor",
-    "fato": "Instruções de Uso do Equipamento – Extensor",
-    "causa": "Durante a visita técnica, foram fornecidas instruções de uso e melhores práticas para o extensor MESH.",
-    "acao": "Cliente orientado.",
-    "obs": "✅ Instruções concluidas."
-  },
-  "473": {
-    "title": "Necessidade de Instalação via Cabo Ethernet",
-    "fato": "Necessidade de Instalação via Cabo Ethernet",
-    "causa": "Durante a visita técnica, constatou-se que o extensor exige conexão cabeada para estabilidade.",
-    "acao": "Instalação cabeada realizada.",
-    "obs": "✅ Cabo instalado."
-  },
-  "474": {
-    "title": "Reposicionado o Extensor",
-    "fato": "Reposicionado o Extensor",
-    "causa": "Durante a visita técnica, reposicionou-se o extensor para otimizar cobertura.",
-    "acao": "Posição ajustada e testada.",
-    "obs": "✅ Sinal validado."
-  },
-  "475": {
-    "title": "Velocidade do Extensor Conforme Contratada",
-    "fato": "Velocidade do Extensor Conforme Contratada",
-    "causa": "Durante os testes, o extensor apresentou a velocidade contratada pelo cliente.",
-    "acao": "Visita concluída.",
-    "obs": "✅ Velocidade confirmada."
-  },
-  "476": {
-    "title": "Reconfigurado / Pareamento de Extensores",
-    "fato": "Reconfigurado / Pareamento de Extensores",
-    "causa": "Durante a visita técnica, foi realizado o pareamento e reconfiguração dos extensores MESH.",
-    "acao": "Rede integrada validada.",
-    "obs": "✅ Pareamento bem-sucedido."
-  },
-  "477": {
-    "title": "Instalação Mesh Cabeada",
-    "fato": "Instalação Mesh Cabeada",
-    "causa": "Durante a visita técnica, a instalação do extensor MESH via cabo Ethernet foi concluída.",
-    "acao": "Desempenho validado.",
-    "obs": "✅ Instalação estável."
-  },
-  "499": {
-    "title": "Desconexão por Risco de Subscrição",
-    "fato": "Desconexão por Risco de Subscrição",
-    "causa": "Durante a visita técnica, o serviço foi desconectado por risco de subscrição identificado.",
-    "acao": "OS atualizada como desconectada por risco.",
-    "obs": "✅ Registro de risco concluído."
-  },
-  "559": {
-    "title": "Sem Defeito no Produto Virtua Reclamado",
-    "fato": "Sem Defeito no Produto Virtua Reclamado",
-    "causa": "Durante a visita técnica, após testes, não foi identificado defeito no serviço Virtua reclamado.",
-    "acao": "OS encerrada como sem defeito.",
-    "obs": "✅ Serviço operante."
-  },
-  "561": {
-    "title": "Ponto Sem Cadastro Não Regularizado",
-    "fato": "Ponto Sem Cadastro Não Regularizado",
-    "causa": "Durante a visita técnica, constatou-se ponto(s) sem cadastro e o cliente optou por não regularizar.",
-    "acao": "OS suspensa até regularização.",
-    "obs": "✅ Aguardando cadastro."
-  },
-  "579": {
-    "title": "Limpeza de Ruído Executada",
-    "fato": "Limpeza de Ruído Executada",
-    "causa": "Durante a visita técnica, foi executada limpeza de ruído na rede do cliente.",
-    "acao": "Qualidade de sinal testada.",
-    "obs": "✅ Sinal otimizado."
-  },
-  "597": {
-    "title": "Troca de Pilha",
-    "fato": "Troca de Pilha",
-    "causa": "Durante a visita técnica, foram substituídas as pilhas do controle remoto conforme solicitação.",
-    "acao": "Funcionamento testado.",
-    "obs": "✅ Pilhas novas instaladas."
-    },
-    "574": {
-  "title": "-Instabilidade Corrigida pelo Data Center",
-  "fato": "-Cliente com serviço indisponível.",
-  "causa": "-Instabilidade de origem sistêmica, necessitando apoio do Data Center.",
-  "acao": "-Correções efetuadas remotamente pelo Data Center, serviço normalizado com sucesso.",
-  "obs": "-Cliente acompanhou o atendimento e confirmou o restabelecimento do serviço.",
-  "atendido": "- [Nome do cliente]",
-  "contato": "→ [Número de telefone do cliente]"
+   "574": {
+  "title": "- Instabilidade Corrigida pelo Data Center",
+  "fato": "- Cliente com serviço indisponível.",
+  "causa": "- Instabilidade de origem sistêmica, necessitando apoio do Data Center.",
+  "acao": "- Correções efetuadas remotamente pelo Data Center, serviço normalizado com sucesso.",
+  "obs": "- ✅ Cliente acompanhou o atendimento e confirmou o restabelecimento do serviço.",
+  "contato": "- ",
+  "atendido": "nome"
     }
   }
 }
