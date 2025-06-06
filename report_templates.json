@@ -1399,11 +1399,15 @@
     "obs": "✅ Pilhas novas instaladas."
   },
   "815": {
-  "title": "Envio de Chip via Correio",
-  "fato": "**FATO:** Envio de Chip via Correio",
-  "causa": "**CAUSA:** Durante o atendimento, o chip foi enviado ao cliente via Correio.",
-  "acao": "**AÇÃO:** Rastreio informado ao cliente.",
-  "obs": "**OBS:** ✅ Aguardando entrega."
+  "*title": "Envio de Chip via Correio",
+    
+  "*fato*": "Envio de Chip via Correio",
+    
+  "*causa*": "Durante o atendimento, o chip foi enviado ao cliente via Correio.",
+    
+  "*acao*": "Rastreio informado ao cliente.",
+    
+  "*obs*": "✅ Aguardando entrega."
 
     }
   }
